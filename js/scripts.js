@@ -20,18 +20,6 @@ window.addEventListener('load',typeitout);
 
 var y=setInterval(typeitout,100);    // Typing effect every 100 milliseconds.
 
-function scrolldetector()  // Function performing all the scrolling related stuff.
-{
-	if(document.body.scrollTop>20 || document.documentElement.scrollTop>20)
-	{
-
-	}
-	else
-	{
-		
-	}
-}
-
 window.addEventListener('scroll',scrolldetector);  // Call the scrolldetector function every time the user scrolls.
 
 function opennav()
