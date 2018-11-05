@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <title>Contact Me</title>
+	  <!-- STYLES -->
+	  <link rel="icon" href="files/icon.png">
+	  <link rel="stylesheet" type="text/css" href="styles/style.css">
+	  <link rel="stylesheet" type="text/css" media="screen and (max-width: 900px)" href="styles/smallscreen.css">
+	  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="styles/ultrasmall.css">
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	  <!-- META -->
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta name="description" content="Website of Devesh Kumar, a freelance Web Designer and Developer.">
+	  <meta name="HandheldFriendly" content="True">
+	  <meta name="Author" content="Devesh Kumar">
+</head>
+<body>
+	<div id='menu' style="border-top: 6px solid #0098ff;">
+		<div class="left" style="color: #343434; font-weight: bold;">
+			TheMinimalist
+		</div>
+			<div class="right">
+				<div class="nonresponse">
+					<a href="index.html">Home</a>
+					&nbsp&nbsp&nbsp
+					<a href="work.html">Work</a>
+				</div>
+				<div class="response">
+					<a href="javascript:void(0)" onclick="opennav()"><i class="fas fa-bars fa-lg"></i></a>
+				</div>
+			</div>
+	</div>
+	<div id='main'>
+		<div id="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closenav()">&times;</a>
+			<div align="center"> 
+			 <br>
+			 <ul style="list-style: none; padding: 0px;">
+			  <li><a href="index.html" onclick="closenav()">Home</a></li>
+			  <li><a href="work.html" onclick='closenav()'>Work</a></li>
+			 </ul>
+			  <br><br>
+			  <div class="footerline"></div>
+			  <br><br>
+				<span style='font-size: 13.5px'>With &nbsp <span class="blesscont"></span> &nbsp from Devesh Kumar.</span>
+			</div>
+		</div>
+		<div class="workfirst" style="width: 100%; max-width: 100vw; padding: 20px; overflow: auto;">
+			<div class="left">
+				<h2>Contact Me</h2>
+				I am always open to a conversation. Hit me up with anything. <br>Even a <b>"Hi"</b> would do.
+				<br><br>
+				<h4>Also Find Me Here</h4>
+				<br><span style="color: #000000;"><i class="fab fa-github fa-lg"></i> &nbsp github.com/deve-sh</span>
+				<br><br><span style="color: #bc2a8d;"><i class="fab fa-instagram fa-lg"></i> &nbsp instagram.com/d_e_v.e_s_h</span>
+				<br><br><span style="color: #2080d5;"><i class="far fa-envelope fa-lg"></i> &nbsp devesh2027@gmail.com</span>
+			</div>
+			<div class="right">
+				<form action="https://formspree.io/devesh2027@gmail.com" method="POST">
+					Just Fill in the following and submit : <br><br>
+					<div align="left">
+						<input type="text" class="lefty" name="Name" placeholder="Name" required>
+						<input class='lefty' type="email" name="Reply-To" placeholder="Email" style="margin-left: 10px;" required>
+					</div>
+					<div align="center">
+						<br>
+						<textarea name="Message" placeholder="Your Message"></textarea>
+					<br><br>
+					<input type="submit" value="SUBMIT" class="submit" name="send">
+				</div>
+				</form>
+			</div>
+		</div>
+		<footer>
+			<div class="header">Anything Interesting?</div>
+			<br>
+			<div align='center'>Even if not, contact me just to say hi.
+			<br><br>
+			With &nbsp<span class='blesscont'></span> &nbspfrom Devesh Kumar.</div>
+			<br>
+			<div align="center"><div class="footerline"></div>
+			<br>
+			<a href="https://github.com/deve-sh" target="_blank"><i class="fab fa-github-square fa-lg"></i></a> 
+			&nbsp&nbsp
+			<a href="https://instagram.com/d_e_v.e_s_h" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+			&nbsp&nbsp
+			<a href="mailto:devesh2027@gmail.com" target="_blank"><i class="far fa-envelope fa-lg"></i></a>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript" src="js/workscripts.js"></script>
+</body>
+</html>
