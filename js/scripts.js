@@ -20,8 +20,6 @@ window.addEventListener('load',typeitout);
 
 var y=setInterval(typeitout,100);    // Typing effect every 100 milliseconds.
 
-window.addEventListener('scroll',scrolldetector);  // Call the scrolldetector function every time the user scrolls.
-
 function opennav()
 {
 	{
@@ -55,5 +53,3 @@ function blessco(){
 		document.getElementsByClassName('blesscont')[i].innerHTML=blessarray[randomnum];
 	}
 }
-
-window.addEventListener('load',blessco);
