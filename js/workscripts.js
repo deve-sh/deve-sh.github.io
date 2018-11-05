@@ -1,0 +1,35 @@
+function opennav()
+{
+	{
+		document.getElementById('sidenav').style.width='100%';
+	}
+}
+
+function closenav()
+{
+	document.getElementById('sidenav').style.width='0px';
+}
+
+function blessco(){
+	var blessarray=[
+		"<i class='far fa-heart fa-lg'></i>",
+		"<i class='fas fa-heart fa-lg'></i>",
+		"<i class='fas fa-coffee fa-lg'></i>",
+		"<i class='fas fa-glass-martini-alt fa-lg'></i>",
+		"<i class='fas fa-beer fa-lg'></i>",
+		"<i class='fas fa-birthday-cake fa-lg'></i>",
+		"<i class='fas fa-wine-glass-alt fa-lg'></i>",
+		"<i class='fas fa-cocktail fa-lg'></i>",
+		"<i class='fas fa-cookie fa-lg'></i>",
+		"<i class='fas fa-apple-alt fa-lg'></i>"
+	];
+
+	var randomnum=Math.floor(Math.random()*10);   // Random number.
+
+	for(var i=0;i<document.getElementsByClassName('blesscont').length;i++)
+	{
+		document.getElementsByClassName('blesscont')[i].innerHTML=blessarray[randomnum];
+	}
+}
+
+window.addEventListener('load',blessco);
