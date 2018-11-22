@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="English">
 <head>
 	  <title>Devesh Kumar - Web Designer and Developer</title>
 	  <!-- STYLES -->
@@ -35,13 +35,13 @@
 					<a href="contact.html">Contact</a>
 				</div>
 				<div class="response">
-					<a href="javascript:void(0)" onclick="opennav()"><i class="fas fa-bars fa-lg"></i></a>
+					<a href="javascript:void(0)" onclick="opennav()" aria-label="Open Navigation"><i class="fas fa-bars fa-lg"></i></a>
 				</div>
 			</div>
 	</div>
 	<div id='main'>
 		<div id="sidenav">
-		  <a href="javascript:void(0)" class="closebtn" onclick="closenav()">&times;</a>
+		  <a href="javascript:void(0)" class="closebtn" onclick="closenav()" aria-label="Close Navigation">&times;</a>
 			<div align="center"> 
 			 <br>
 			 <ul style="list-style: none; padding: 0px;">
@@ -66,7 +66,7 @@
 		</div>
 		<div id='second'>
 			<div class="left">
-				<div align="center"><img src="https://instagram.fbho1-1.fna.fbcdn.net/vp/731f9befdcb42310dbb22591dcdeb56d/5C8663EE/t51.2885-15/sh0.08/e35/s640x640/31118636_140779863412017_4313416366674673664_n.jpg" id='profilephoto'></div></div>
+				<div align="center"><img src="https://instagram.fbho1-1.fna.fbcdn.net/vp/731f9befdcb42310dbb22591dcdeb56d/5C8663EE/t51.2885-15/sh0.08/e35/s640x640/31118636_140779863412017_4313416366674673664_n.jpg" id='profilephoto' alt='Devesh Kumar'></div></div>
 			<div class="right">Hey There! I am Devesh Kumar. <br><br>I am a First Year Computer Science Student at Fergusson College, Pune.<br><br>I am a passionate Web Developer. I have been web designing since I was 11. (Seems Heard Right? Yeah. That's literally what every Wannabe Software Engineer says.)
 			<br><br>
 			I have proficiency in Programming Languages such as Python, C, C++ and JavaScript. Along with some other Backend Languages such as PHP and SQL.
@@ -96,7 +96,7 @@
 				</div>
 			</div>
 			<div class="image">
-				<img src="files/screen.jpg" class="skilledimage">
+				<img src="files/screen.jpg" alt='Skills' class="skilledimage">
 			</div>
 		</div>
 		<footer>
@@ -110,11 +110,11 @@
 			</div>
 			<div align="center"><div class="footerline"></div>
 			<br>
-			<a href="https://github.com/deve-sh" target="_blank"><i class="fab fa-github-square fa-lg"></i></a> 
+			<a href="https://github.com/deve-sh" target="_blank" aria-label="Github"><i class="fab fa-github-square fa-lg"></i></a> 
 			&nbsp&nbsp
-			<a href="https://instagram.com/d_e_v.e_s_h" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+			<a href="https://instagram.com/d_e_v.e_s_h" target="_blank" aria-label="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
 			&nbsp&nbsp
-			<a href="mailto:devesh2027@gmail.com" target="_blank"><i class="far fa-envelope fa-lg"></i></a>
+			<a href="mailto:devesh2027@gmail.com" target="_blank" aria-label="Email"><i class="far fa-envelope fa-lg"></i></a>
 			</div>
 		</footer>
 	  </div>
@@ -122,11 +122,11 @@
 
 
 	<!-- SCRIPTS -->
-	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/scripts.js" async></script>
 
 	<!-- jQuery For Smooth Scrolling -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script>
+	<script async>
 	$(document).ready(function(){     //Smooth Scroll (*_*) 
 	  $("a").on('click', function(event) {
 	    if (this.hash !== "") {
