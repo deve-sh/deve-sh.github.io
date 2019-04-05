@@ -157,6 +157,20 @@
 	padding: 10px;
 }
 
-form .lefty{
-	width: 47%;
+.contact
+{
+	display: block;
+}
+
+.contact .left{
+	float: none;
+	clear: both;
+	text-align: center;
+	width: 100%;
+}
+
+.contact .right{
+	float: none;
+	clear: both;
+	width: 100%;
 }

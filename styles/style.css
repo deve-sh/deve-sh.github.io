@@ -22,7 +22,7 @@ body{
 	color: #343434;
 	height: auto;
 	font-family: 'Montserrat',sans-serif;
-	padding: 30px;
+	padding: 1.5rem;
 	width: 100%;
 	max-width: 100vw;
 }
@@ -46,9 +46,9 @@ body{
 .workfirst .left{
 	width: 50%;
 	float: left;
-	padding: 35px;
-	padding-top: 50px;
-	font-size: 15px;
+	padding: 1.5rem;
+	padding-top: 2.2rem;
+	font-size: 0.89em;
 }
 
 .workfirst .right{
@@ -63,7 +63,7 @@ body{
 
 .worksecond{
 	background: #f2f2f2;
-	padding: 10px;
+	padding: 0.5rem;
 	height: auto;
 	overflow: auto;
 }
@@ -76,7 +76,7 @@ body{
 
 .skill .left{
 	width: 40%;
-	padding: 0px;
+	padding: 0.7rem;
 	height: 100%;
 	float: left;
 }
@@ -175,9 +175,9 @@ body{
 }
 
 #menu{
-	border-top:5px solid #0cb19a;
+	border-top: 0.3rem solid #0cb19a;
 	width: 100%;
-	font-size: 16px;
+	font-size: 1em;
 	left: 0;
 	right: 0;
 	padding: 0px;
@@ -186,7 +186,7 @@ body{
 
 #menu .left{
 	width: 30%;
-	padding: 20px;
+	padding: 1rem;
 	float: left;
 	color: #343434;
 }
@@ -197,13 +197,13 @@ body{
 }
 
 #third li{
-	padding: 10px;
+	padding: 0.5rem;
 }
 
 #menu .right{
 	text-align: right;
 	float: right;
-	padding: 20px;
+	padding: 1rem;
 	color: white;
 	width: 70%;
 }
@@ -232,14 +232,14 @@ body{
 #second .left{
 	width: 40%;
 	float: left;
-	padding: 65px;
+	padding: 4.5rem;
 	vertical-align: middle;
 }
 
 #second .right{
 	width: 60%;
 	float: right;
-	padding: 50px;
+	padding: 3.6rem;
 }
 
 #third{
@@ -421,16 +421,57 @@ footer a{
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
 }
 
+.contact{
+	width: 100%;
+	padding: 0;
+	line-height: 1.6;
+	display: flex;
+	padding-bottom: 3rem;
+}
+
+.contact a{
+	color: #1a1a1a;
+	text-decoration: none;
+}
+
+.contact .socialicons{
+	padding: 1rem;
+	transition: 0s;
+	border-radius: 0.3rem;
+	border: 0.1rem solid #1a1a1a;
+	display: inline-block;
+	color: #1a1a1a;
+	text-decoration: none;
+}
+
+.contact .socialicons:hover{
+	background: #1a1a1a;
+	color: #ffffff;
+}
+
+.contact .left{
+	padding: 1rem;
+	float: left;
+	flex: 1;
+	width: 45%;
+}
+
+.contact .right{
+	float: right;
+	width: 55%;
+	padding: 1rem;
+}
+
 footer .header{
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 1.3em;
 	font-weight: bold;
 	text-align: center;
 }
 
 .footerline{
 	width: 60%;
-	height: 0.7px;
+	height: 0.08rem;
 	background: #868e96;
 }
 
@@ -438,27 +479,31 @@ footer .header{
 
 form {
 	width: 100%;
-	background: #efefef;
 	padding: 20px;
+	color: #ffffff;
+	border-radius: 0.3rem;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+	background: #165caa;
 }
 
 input{
-	padding: 15px;
+	padding: 0.8rem;
 	border : none;
+	border-radius: 0.1rem;
 	outline: none;
 }
 
 textarea:focus,input:focus{
-	border-left: 3px solid #0098ff;
+	border-left: 0.15rem solid #343434;
 }
 
 form .lefty{
-	width: 48%;
+	width: 100%;
 	display: inline-block;
 }
 
 textarea{
-	padding: 15px;
+	padding: 0.8rem;
 	width: 100%;
 	font-size: 15px;
 	outline: none;
@@ -470,16 +515,16 @@ textarea{
 }
 
 form .submit{
-	border: 1px solid #343434;
+	border: 1px solid #ffffff;
 	background: transparent;
 	cursor: pointer;
 	border-radius: 30px;
 	padding: 15px 30px;
-	color: #343434;
+	color: #ffffff;
 	transition: 0.05s;
 }
 
 form .submit:hover{
-	color: #ffffff;
-	background: #343434;
+	color: #343434;
+	background: #ffffff;
 }
