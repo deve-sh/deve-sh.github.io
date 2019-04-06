@@ -8,7 +8,8 @@
 }
 
 .workfirst{
-	padding: 30px;
+	padding: 1.3rem;
+	padding-top: 0.2rem;
 	width: 100%;
 }
 
@@ -166,6 +167,8 @@
 	float: none;
 	clear: both;
 	text-align: center;
+	padding: 1rem;
+	padding-top: 0.2rem;
 	width: 100%;
 }
 

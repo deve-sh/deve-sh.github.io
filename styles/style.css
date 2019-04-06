@@ -40,7 +40,8 @@ body{
 	background : #ffffff;
 	margin: 0px;
 	width: 85%;
-	padding: 40px;
+	padding: 1.6rem;
+	padding-top: 0.6rem;
 }
 
 .workfirst .left{
@@ -178,6 +179,7 @@ body{
 	border-top: 0.3rem solid #0cb19a;
 	width: 100%;
 	font-size: 1em;
+	overflow: auto;
 	left: 0;
 	right: 0;
 	padding: 0px;
@@ -450,7 +452,8 @@ footer a{
 }
 
 .contact .left{
-	padding: 1rem;
+	padding: 2rem;
+	padding-top: 5rem;
 	float: left;
 	flex: 1;
 	width: 45%;

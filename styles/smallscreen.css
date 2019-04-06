@@ -2,7 +2,6 @@
 	width: 45%;
 }
 
-
 #firstitem{
 	padding-top: 15vh;
 }
@@ -110,4 +109,9 @@
 	clear: both;
 	width: 100%;
 	padding-top: 10px;
+}
+
+.contact .left{
+	padding: 0.7rem;
+	padding-top: 4.5rem;
 }
