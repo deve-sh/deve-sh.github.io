@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	  <title>Work - Devesh Kumar</title>
+
 	  <!-- STYLES -->
 	  <link rel="icon" href="files/icon.png">
 	  <link rel="stylesheet" type="text/css" href="styles/style.css">
@@ -9,6 +10,7 @@
 	  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	  <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="styles/ultrasmall.css">
 	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
 	  <!-- META -->
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,8 +18,8 @@
 	  <meta name="HandheldFriendly" content="True">
 	  <meta name="Author" content="Devesh Kumar">
 </head>
-<body>
-	<div id="menu" style="border-top: 0.4rem solid #038a8a">
+<body onload="repoFiller()">
+	<div id="menu" style="border-top: 0.3rem solid #0cb19a">
 		<div class="left" style="font-weight: bold;">
 			<a href='index.html' aria-label="Home">Devesh</a>
 		</div>
@@ -85,7 +87,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="morework">
+		<div class='repospace'>
+			<div align='center'>Some Other Interesting Projects : </div>
+			<br>
+			<div id='repofiller' class="row">
+				<!-- This will be filled using JavaScript -->
+			</div>
+			<br>
 			<div align="center"><a href="https://github.com/deve-sh" target="_blank"><div class='moreworkbutton'>View All Of My Work</div></a></div>
 		</div>
 		<footer>
