@@ -69,6 +69,16 @@
 	animation: point 1s step-end infinite;
 }
 
+.row{
+	display: block;
+}
+
+.repo{
+	width: 100%;
+	flex: none;
+	margin-top: 0.5rem;
+}
+
 /* Animating the typing pointer */
 
 @keyframes point{
