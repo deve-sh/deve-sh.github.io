@@ -38,17 +38,20 @@ let otherPinnedRepos = {
 	Pollster : {
 		url: "https://github.com/deve-sh/Pollster",
 		description: "A Sexy Voting Web App!",
-		language:"PHP"
+		language:"PHP",
+		color: "#4F5D95"
 	},
 	"Regression-Analysis" : {
 		url : "https://github.com/deve-sh/Regression-Analysis",
 		description : "📈 A Python Library for Regression Analysis. Both Linear and Non - Linear.",
-		language : "Python"
+		language : "Python",
+		color: "#3572A5"
 	},
 	learnpython :{
 		url : "https://github.com/deve-sh/learnpython",
 		description : "🐍 A Website to learn Python basics as fast as possible!",
-		language : "HTML"
+		language : "HTML",
+		color: "#e34c26"
 	}
 }
 
@@ -60,14 +63,19 @@ function repoFiller(){
 	for(let repo in otherPinnedRepos){
 		if(otherPinnedRepos.hasOwnProperty(repo)){
 			pinnedHTML += `<div class='repo'>
-				<a href='${otherPinnedRepos[repo]["url"]}' target='_blank'>
-					<div class='reponame'>
-						${repo}
-					</div>
-				</a>
+					<span style='height:1.1em; vertical-align:center;'><object type="image/svg+xml" class='svg' data="./files/repo.svg"></object></span>
+					<span><a href='${otherPinnedRepos[repo]["url"]}' target='_blank'>
+						<span class='reponame'>
+							${repo}
+						</span>
+					</a></span>
+					<br>
 				<div class='repodesc'>
 					${otherPinnedRepos[repo]["description"]}
 				</div>
+				<span class='circle' style='background : ${otherPinnedRepos[repo]["color"]}'></span>
+
+				<span class='repolang'>${otherPinnedRepos[repo]["language"]}</span>
 			</div>`;
 		}
 	}

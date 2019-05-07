@@ -69,6 +69,10 @@
 	animation: point 1s step-end infinite;
 }
 
+.row{
+	display: block;
+}
+
 .repo{
 	width: 100%;
 	flex: none;

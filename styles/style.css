@@ -118,12 +118,6 @@ body{
 	max-height: 100%;
 }
 
-.morework{
-	background: #034e94;
-	padding: 20px;
-	color:#ffffff;
-}
-
 .moreworkbutton{
 	padding: 15px 20px;
 	color: #ffffff;
@@ -424,22 +418,27 @@ footer a{
 
 .row {
   margin: 0;
+  display: flex;
   padding: 0rem;
   width: 100%;
 }
 
 .repospace{
 	padding: 1rem;
+	background: #034e94;
+	color: #ffffff;
 }
 
 .repo {
-  padding: 1rem;
+  padding: 0.8rem;
   background: #ffffff;
-  border: 0.1rem solid #cfcfcf;
+  border: 0.1rem solid #d1d5da;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   border-radius: 0.2rem;
   width: 32%;
   margin-left: 0.3rem;
   flex: 1;
+  line-height: 2;
 }
 
 .col-md-4{
@@ -458,9 +457,42 @@ footer a{
   font-weight: bold;
 }
 
+.repo .circle{
+	border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    vertical-align: middle;
+    width: 12px;
+}
+
 .repo .repodesc {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: #666;
+}
+
+.repo .repolang{
+	color: #434343;
+	font-size: 0.75em;
+}
+
+.svg{
+	overflow: hidden;
+	height: 1.15em;
+	vertical-align: middle;
+}
+
+.flexer{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+}
+
+.flexer > .left{
+	flex: 1;
+}
+
+.flexer > .right{
+	flex: 1;
 }
 
 .contact{
