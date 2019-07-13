@@ -11,9 +11,8 @@ function typeitout()       // Function to type out a string to the first element
 	if(i<str.length)
 	{
 		document.getElementById('typer').textContent+=str[i];
+		i++;
 	}
-
-	i++;
 }
 
 window.addEventListener('load',typeitout);
