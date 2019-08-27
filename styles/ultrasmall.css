@@ -169,8 +169,7 @@
 	padding: 10px;
 }
 
-.contact
-{
+.contact{
 	display: block;
 }
 
@@ -187,4 +186,8 @@
 	float: none;
 	clear: both;
 	width: 100%;
+}
+
+.workcolumn{
+	padding: 2rem;
 }
