@@ -41,17 +41,17 @@ let otherPinnedRepos = {
 		language:"PHP",
 		color: "#4F5D95"
 	},
-	"Regression-Analysis" : {
-		url : "https://github.com/deve-sh/Regression-Analysis",
-		description : "📈 A Python Library for Regression Analysis. Both Linear and Non - Linear.",
-		language : "Python",
-		color: "#3572A5"
+	LearnPHP : {
+		url : "https://learnphp.netlify.com",
+		description : "A Website to learn PHP ASAP!",
+		language : "JavaScript",
+		color: "yellow"
 	},
-	learnpython :{
-		url : "https://github.com/deve-sh/learnpython",
-		description : "🐍 A Website to learn Python basics as fast as possible!",
-		language : "HTML",
-		color: "#e34c26"
+	Median :{
+		url : "https://github.com/deve-sh/Median",
+		description : "A Simple Blog Engine for the minimalists.",
+		language : "JavaScript",
+		color: "yellow"
 	}
 }
 
@@ -62,7 +62,8 @@ function repoFiller(){
 
 	for(let repo in otherPinnedRepos){
 		if(otherPinnedRepos.hasOwnProperty(repo)){
-			pinnedHTML += `<div class='repo'>
+			pinnedHTML += `
+			<div class='repo'>
 					<span style='height:1.1em; vertical-align:center;'><object type="image/svg+xml" class='svg' data="./files/repo.svg"></object></span>
 					<span><a href='${otherPinnedRepos[repo]["url"]}' target='_blank'>
 						<span class='reponame'>

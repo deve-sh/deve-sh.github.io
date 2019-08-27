@@ -603,3 +603,30 @@ form .submit:hover{
 	color: #343434;
 	background: #ffffff;
 }
+
+.newwork{
+	background: #f1f1f1;
+	color: #212121;
+}
+
+.littlemore{
+	color: #fff;
+	background: #212121;
+	border: 0;
+	padding: 1rem;
+	outline: none;
+	border-radius: 0.25rem;
+}
+
+.responsiveimage{
+	max-width: 105%;
+}
+
+.workcolumn{
+	padding: 3rem;
+}
+
+.row{
+	padding: 0;
+	margin: 0;
+}
