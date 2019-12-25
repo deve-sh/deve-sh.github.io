@@ -276,8 +276,8 @@ body{
 }
 
 .skillcard .bottom h3{
-	margin-top: 5px;
-	padding-top: 5px;
+	margin-top: 0.3125rem;
+	padding-top: 0.3125rem;
 }
 
 footer{
@@ -500,6 +500,9 @@ footer a{
 	line-height: 1.6;
 	display: flex;
 	padding-bottom: 3rem;
+	align-items: center;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 .contact a{
@@ -524,8 +527,6 @@ footer a{
 
 .contact .left{
 	padding: 2rem;
-	padding-top: 5rem;
-	float: left;
 	flex: 1;
 	width: 45%;
 }
@@ -574,14 +575,19 @@ textarea:focus,input:focus{
 form .lefty{
 	width: 100%;
 	display: inline-block;
+	border-radius: 0.15rem;
+	transition: 0.15s;
 }
 
 textarea{
 	padding: 0.8rem;
 	width: 100%;
+	transition: 0.15s;
 	font-size: 15px;
 	outline: none;
 	border: none;
+	border-radius: 0.15rem;
+	resize: none;
 	height: 200px;
 	font-family: sans-serif;
     white-space: pre-wrap;
@@ -626,6 +632,12 @@ form .submit:hover{
 }
 
 .row{
+	align-items: center;
 	padding: 0;
 	margin: 0;
+}
+
+.fixedcontainer{
+	max-width: 1000px;
+	margin: 0 auto;
 }
