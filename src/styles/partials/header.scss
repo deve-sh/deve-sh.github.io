@@ -1,0 +1,48 @@
+.header{
+	border-bottom: 0.1rem solid $headerborder;
+	padding: 0.75rem 0;
+	color: $black;
+	width: 100%;
+	font-family: 'Montserrat';
+
+	a{
+		text-decoration: none;
+		color: $black;
+	}
+
+	&-logo{
+		background: $black;
+		color: $white;
+		padding: 0.5rem 0.625rem;
+		font-weight: 600;
+		font-family: 'Roboto', sans-serif;
+		text-decoration: none;
+		display: inline-block;
+	}
+
+	.row{
+		align-items: center;
+
+		.headerright{
+			display: flex;
+			justify-content: flex-end;
+
+			.linkscontainer{
+				display: flex;
+				min-width: 60%;
+				max-width: 75%;
+
+				.headerlink{
+					font-size: 0.8rem;
+					font-weight: 600;
+					text-transform: uppercase;
+					flex: 1;
+				}
+
+				.headerlink::first-letter{
+					font-size: 1rem;
+				}
+			}
+		}
+	}
+}

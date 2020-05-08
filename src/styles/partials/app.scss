@@ -1,0 +1,31 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+
+body{
+	line-height: 1.618;
+	background: $white;
+	color: $black;
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+	font-family: 'Montserrat', 'Roboto', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.fixedcontainer{
+	max-width: 1000px;
+	margin: 0 auto;
+
+	@media only screen and (max-width: 768px){
+		padding-left: 0.925rem;
+		padding-right: 0.925rem;
+	}
+}
+
+.resimage{
+	max-width: 100%;
+	max-height: 100%;
+}

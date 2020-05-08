@@ -1,0 +1,35 @@
+.home{
+	line-height: 1.618;
+	&-intro{
+		align-items: center;
+
+		.introleft{
+			.heading{
+				color: $black;
+				font-size: 2rem;
+				font-weight: 500;
+				font-family: 'Montserrat', sans-serif; 
+				letter-spacing: 2%;
+			}
+
+			.introdesc{
+				color: $black;
+				font-size: 0.875rem;
+				font-family: sans-serif;
+			}
+		}
+
+		.introright{
+			padding: 0.75rem;
+
+			.resimage{
+				max-width: 90%;
+				max-height: 90%;
+			}
+		}
+
+		@media only screen and (max-width: 768px){
+			flex-direction: column-reverse;
+		}
+	}
+}
