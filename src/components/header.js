@@ -10,14 +10,14 @@ const Header = props => (
     <div
       className={"fixedcontainer row"}
     >
-      <div className={"col-6 headerleft"}>
+      <div className={"col-3 headerleft"}>
         <Link to={"/"} title={"Home"}>
           <div className={"header-logo"}>
             DK
           </div>
         </Link>
       </div>
-      <div className={"col-6 headerright"}>
+      <div className={"col-9 headerright"}>
         <div className={"linkscontainer"}>
           <Link to={"/work"} to={"My Work"} className={"headerlink"}>
             Work

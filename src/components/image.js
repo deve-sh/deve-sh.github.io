@@ -13,8 +13,8 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const Image = ({src, alt}) => {
-  return <img src={src} alt={alt} title={alt} aria-label={alt} className={"resimage"} />
+const Image = ({src, alt, className}) => {
+  return <img src={src} alt={alt} title={alt} aria-label={alt} className={`resimage ${className ? className: ""}`} />
 }
 
 export default Image

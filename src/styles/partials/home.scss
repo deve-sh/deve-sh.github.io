@@ -1,7 +1,18 @@
 .home{
 	line-height: 1.618;
 	&-intro{
-		align-items: center;
+		min-height: 86.5vh;
+		position: relative;
+
+		.fixedcontainer.row{
+			height: 100%;
+			align-items: center;
+			padding: 0.75rem;
+
+			@media only screen and (max-width: 768px){
+				flex-direction: column-reverse;
+			}
+		}
 
 		.introleft{
 			.heading{
@@ -16,20 +27,100 @@
 				color: $black;
 				font-size: 0.875rem;
 				font-family: sans-serif;
+				margin-top: 0.5rem;
 			}
 		}
 
 		.introright{
 			padding: 0.75rem;
+			display: flex;
+			justify-content: center;
+
+			@media only screen and (max-width: 768px){
+				padding: 0 0.75rem;
+			}
 
 			.resimage{
-				max-width: 90%;
-				max-height: 90%;
+				max-width: 100%;
+				max-height: 100%;
 			}
 		}
 
-		@media only screen and (max-width: 768px){
-			flex-direction: column-reverse;
+		.absoluteimage{
+			position: absolute;
+			top: 1rem;
+
+			@media only screen and (max-width: 1000px){
+				max-width: 3.5rem;
+				max-height: 5rem;
+			}
+
+			&.cornerplantimage{
+				left: 0;
+			}
+
+			&.leafstuffimage{
+				top: 3.5rem;
+				right: 0;
+			}
 		}
+	}
+
+	&-whatido{
+		background: $subtlegrey;
+		min-height: 75vh;
+
+		.fixedcontainer{
+			height: 100%;
+			align-items: center;
+			padding: 0.75rem;
+		}
+
+		.whatido-heading{
+			color: $black;
+			font-size: 2rem;
+			font-weight: 500;
+			letter-spacing: 2%;
+		}
+
+		.whatido-text{
+			font-size: 0.875rem;
+			margin-top: 0.5rem;
+		}
+
+		.whatido-right{
+			padding: 0 0.75rem;
+		}
+	}
+
+	&-solvingproblems{
+		@extend .home-whatido;
+		background: $white;
+
+		.row.fixedcontainer{
+			@media only screen and (max-width: 768px){
+				flex-direction: column-reverse;
+			}
+		}
+
+		.solvingproblems-heading{
+			color: $black;
+			font-size: 2rem;
+			font-weight: 500;
+			letter-spacing: 2%;
+		}
+
+		.solvingproblems-text{
+			font-size: 0.875rem;
+			margin-top: 0.5rem;
+		}
+
+		.solvingproblems-left{
+			padding: 0 0.75rem;
+		}
+	}
+
+	.imagecolumn{
+		padding: 0.75rem 1rem;
 	}
 }

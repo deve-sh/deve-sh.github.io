@@ -29,14 +29,12 @@
 
 			.linkscontainer{
 				display: flex;
-				min-width: 60%;
-				max-width: 75%;
 
 				.headerlink{
 					font-size: 0.8rem;
 					font-weight: 600;
 					text-transform: uppercase;
-					flex: 1;
+					margin: 0 0.875rem;
 				}
 
 				.headerlink::first-letter{
