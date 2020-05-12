@@ -1,20 +1,14 @@
 import { Link } from "gatsby"
 import React from "react"
 
-// import GitHubIcon from '@material-ui/icons/GitHub';
+import Icon from "./icon"
 
 const Header = props => (
-  <header
-    className={"header"}
-  >
-    <div
-      className={"fixedcontainer row"}
-    >
+  <header className={"header"}>
+    <div className={"fixedcontainer row"}>
       <div className={"col-3 headerleft"}>
         <Link to={"/"} title={"Home"}>
-          <div className={"header-logo"}>
-            DK
-          </div>
+          <div className={"header-logo"}>DK</div>
         </Link>
       </div>
       <div className={"col-9 headerright"}>
@@ -28,9 +22,15 @@ const Header = props => (
           <Link to={"/contact"} to={"Contact"} className={"headerlink"}>
             Contact
           </Link>
-          {//<a href={"https://github.com/deve-sh"} target={"_blank"} rel={"noopener noreferrer"}>
-          //             <GitHubIcon className={"headericon"} />
-          //           </a>
+          {
+            <a
+              href={"https://github.com/deve-sh"}
+              target={"_blank"}
+              className={"headericon"}
+              rel={"noopener noreferrer"}
+            >
+              <Icon className={"fab fa-github fa-lg"} title={"Github Profile"} />
+            </a>
           }
         </div>
       </div>

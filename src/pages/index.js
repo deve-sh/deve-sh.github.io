@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet";
 
 import Header from "../components/header"
+import Footer from "../components/footer";
 import Image from "../components/image"
 import SEO from "../components/seo"
 
 import IntroSectionImage from "../images/IntroSection.png";
 import WhatIdoImage from "../images/WhatIDo.svg";
+import WhatIdoBackground from "../images/WhatIDoBackground.svg";
 import WhiteboardImage from "../images/Whiteboard.svg";
 import CornerPlantsImage from "../images/cornerplants.svg"
 import LeafStuffImage from "../images/leafstuff.svg";
@@ -31,7 +34,10 @@ const IndexPage = () => {
   }, []);
 
   return <React.Fragment>
-    <SEO title="Devesh Kumar | Web Developer" />
+    <Helmet>
+        <meta charset={"utf-8"} />
+    </Helmet>
+    <SEO title="Devesh Kumar | Full Stack Web Developer" />
     <Header />
     <div className={"home"}>
     	<section className={"home-intro"}>
@@ -62,13 +68,18 @@ const IndexPage = () => {
     					<p>
     						Basically everything you expect a 20 year old to talk about.
     					</p>
+                        <p>
+                            But above everything I mentioned above, I am a learner, a lifelong learner.
+                            <br />I learn stuff I'm interested in, not just stuff that's trendy.
+                        </p>
         			</div>
         		</div>
         		<div className={"introright col-md-5"}>
-        			<Image src={IntroSectionImage} alt={"Intro Image"} />
+        			<Image src={IntroSectionImage} alt={"Devesh Kumar"} />
         		</div>
             </div>
     	</section>
+        <Image src={WhatIdoBackground} alt={"Background SVG"} className={"whatidotopsvg"} />
         <section className={"home-whatido"}>
             <div className={"row fixedcontainer"}>
                 <div className={"col-md-5 imagecolumn"}>
@@ -89,6 +100,7 @@ const IndexPage = () => {
                 </div>
             </div>
         </section>
+        <Image src={WhatIdoBackground} alt={"Background SVG"} className={"whatidotopsvg invert"} />
         <section className={"home-solvingproblems"}>
             <div className={"fixedcontainer row"}>
                 <div className={"col-md-7 solvingproblems-left"}>
@@ -113,6 +125,7 @@ const IndexPage = () => {
             </div>
         </section>
     </div>
+    <Footer />
   </React.Fragment>;
 }
 
