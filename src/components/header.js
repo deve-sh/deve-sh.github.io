@@ -13,13 +13,13 @@ const Header = props => (
       </div>
       <div className={"col-9 headerright"}>
         <div className={"linkscontainer"}>
-          <Link to={"/work"} to={"My Work"} className={"headerlink"}>
+          <Link to={"/work"} title={"My Work"} className={"headerlink"}>
             Work
           </Link>
-          <Link to={"/about"} to={"About Me"} className={"headerlink"}>
+          <Link to={"/about"} title={"About Me"} className={"headerlink"}>
             About
           </Link>
-          <Link to={"/contact"} to={"Contact"} className={"headerlink"}>
+          <Link to={"/contact"} title={"Contact"} className={"headerlink"}>
             Contact
           </Link>
           {

@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Helmet } from "react-helmet";
 
 import Header from "../components/header"
 import Footer from "../components/footer";
@@ -16,9 +15,6 @@ import LeafStuffImage from "../images/leafstuff.svg";
 
 const IndexPage = () => {
   return <React.Fragment>
-    <Helmet>
-        <meta charset={"utf-8"} />
-    </Helmet>
     <SEO title="Devesh Kumar | Full Stack Web Developer" />
     <Header />
     <div className={"home"}>

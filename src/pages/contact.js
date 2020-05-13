@@ -6,12 +6,12 @@ import Footer from "../components/footer";
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const AboutPage = () => {
+const ContactPage = () => {
 	return (
 		<React.Fragment>
-		    <SEO title="Devesh Kumar - About" />
+		    <SEO title="Devesh Kumar - Contact" />
 		    <Header />
-		    <div className={"about"}>
+		    <div className={"contact"}>
 
 		    </div>
 		    <Footer />
@@ -19,4 +19,4 @@ const AboutPage = () => {
 	);
 };
 
-export default AboutPage;
+export default ContactPage;
