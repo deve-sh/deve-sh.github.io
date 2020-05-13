@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 import { Link } from "gatsby"
 import { Helmet } from "react-helmet";
 
@@ -15,24 +15,6 @@ import CornerPlantsImage from "../images/cornerplants.svg"
 import LeafStuffImage from "../images/leafstuff.svg";
 
 const IndexPage = () => {
-  const [typedText, settypedText] = useState("");
-
-  useEffect(() => {
-    window.textToType = "Oh Hey There";
-    window.typeTitle = () => {
-    if(typedText.length >= window.textToType.length)
-        window.timer = clearInterval(window.timer);
-    else{
-        settypedText(text => {
-            return text + window.textToType[window.typed];
-        });
-        window.typed++;
-    }
-  };
-    window.typed = 0;
-    // window.timer = setInterval(window.typeTitle, 80);
-  }, []);
-
   return <React.Fragment>
     <Helmet>
         <meta charset={"utf-8"} />
@@ -55,7 +37,9 @@ const IndexPage = () => {
         		<div className={"introleft col-md-7"}>
         			<div className={"introheading"}>
         				<div className={"heading"}>
-        					Oh Hey There!
+        					{/*<span className={"terminalicon"}>&gt;</span>*/}
+                            {" "}Oh Hey There!{" "}
+                            <span className={"blinkerpad"}>_</span>
         				</div>
         			</div>
         			<div className={"introdesc"}>
