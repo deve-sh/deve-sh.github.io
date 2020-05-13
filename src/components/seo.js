@@ -57,6 +57,12 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
+      <meta charset="utf-8" />
+      <meta name="HandheldFriendly" content="True" />
+      <meta
+        name="google-site-verification"
+        contenst="imOYm3ry5DAJS5JGtAKFWu3l2FXDzVH7jXxQlYC__pA"
+      />
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous"/>
     </Helmet>
   )
