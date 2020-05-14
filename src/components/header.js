@@ -113,7 +113,7 @@ const Header = props => {
 				<Link
 					to={"/work"}
 					title={"My Work"}
-					className={"headerlink"}
+					className={"sidenav-link"}
 					aria-label={"My Work"}
 					onClick={closeSideNav}
 				>
@@ -122,7 +122,7 @@ const Header = props => {
 				<Link
 					to={"/about"}
 					title={"About Me"}
-					className={"headerlink"}
+					className={"sidenav-link"}
 					aria-label={"About Me"}
 					onClick={closeSideNav}
 				>
@@ -131,12 +131,18 @@ const Header = props => {
 				<Link
 					to={"/contact"}
 					title={"Contact"}
-					className={"headerlink"}
+					className={"sidenav-link"}
 					aria-label={"Contact"}
 					onClick={closeSideNav}
 				>
 					Contact
 				</Link>
+				<br />
+				<div className={"sidenav-separator-dots"}>
+					<div className={"dot"} />
+					<div className={"dot"} />
+					<div className={"dot"} />
+				</div>
 			</div>
 		</header>
 	)
