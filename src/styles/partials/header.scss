@@ -1,51 +1,117 @@
-.header{
+.header {
 	border-bottom: 0.1rem solid $headerborder;
 	padding: 0.75rem 0;
 	color: $black;
 	width: 100%;
-	font-family: 'Montserrat';
+	font-family: "Montserrat";
 
-	a{
+	a {
 		text-decoration: none;
 		color: $black;
 	}
 
-	&-logo{
+	&-logo {
 		background: $black;
 		color: $white;
 		padding: 0.5rem 0.625rem;
 		font-weight: 600;
-		font-family: 'Roboto', sans-serif;
+		font-family: "Roboto", sans-serif;
 		text-decoration: none;
 		display: inline-block;
 	}
 
-	.row{
+	.row.fixedcontainer {
 		align-items: center;
+		padding: 0 0.75rem;
 
-		.headerright{
+		.headerright {
 			display: flex;
 			justify-content: flex-end;
 
-			.linkscontainer{
+			.linkscontainer {
 				display: flex;
 
-				.headerlink{
+				.headerlink {
 					font-size: 0.8rem;
 					font-weight: 600;
 					text-transform: uppercase;
-					margin: 0 0.875rem;
+					margin: 0 1rem;
 				}
 
-				.headerlink::first-letter{
+				.headerlink::first-letter {
 					font-size: 1rem;
 				}
 
-				.headericon{
+				.headericon {
 					font-size: 1.125rem;
 					margin: 0 0.75rem;
 				}
 			}
+		}
+	}
+
+	.sidenav {
+		height: 100%; /* 100% Full-height */
+		width: 0; /* 0 width - change this with JavaScript */
+		position: fixed; /* Stay in place */
+		z-index: 1; /* Stay on top */
+		top: 0; /* Stay at the top */
+		right: 0;
+		background-color: #111; /* Black*/
+		overflow-x: hidden; /* Disable horizontal scroll */
+		padding-top: 60px; /* Place content 60px from the top */
+		transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	}
+
+	/* The navigation menu links */
+	.sidenav a {
+		padding: 8px 8px 8px 32px;
+		text-decoration: none;
+		font-size: 25px;
+		color: #818181;
+		display: block;
+		transition: 0.3s;
+	}
+
+	/* When you mouse over the navigation links, change their color */
+	.sidenav a:hover {
+		color: #f1f1f1;
+	}
+
+	/* Position and style the close button (top right corner) */
+	.sidenav .closebtn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+	}
+
+	.sidenavopener{
+		display: none;
+	}
+
+	.sociallinks{
+		display: flex;
+		align-items: center;
+		.headericon {
+			font-size: 1.125rem;
+			margin: 0;
+			margin-right: 0.75rem;
+		}
+	}
+
+	@media only screen and (max-width: 600px){
+		.row.fixedcontainer{
+			.headerright{
+				.linkscontainer{
+					display: none;
+				}
+			}
+		}
+		.sidenavopener{
+			display: flex;
+			align-items: center;
 		}
 	}
 }

@@ -1,6 +1,6 @@
 .footer{
-	background: $black;
-	color: $white;
+	background: $footerblack;
+	color: $footerwhite;
 	min-height: 25vh;
 	display: flex;
 	align-items: center;
@@ -31,7 +31,7 @@
 		width: 100%;
 
 		a{
-			color: $white;
+			color: $footerwhite;
 			text-decoration: none;
 		}
 	}
