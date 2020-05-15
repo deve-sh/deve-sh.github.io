@@ -29,3 +29,31 @@ body{
 	max-width: 100%;
 	max-height: 100%;
 }
+
+/*
+Absolute images for the cute ones.
+*/
+
+.absoluteimage{
+	position: absolute;
+	top: 1rem;
+	max-width: 5.75rem;
+
+	@media only screen and (max-width: 1000px){
+		max-width: 3.5rem;
+		max-height: 5rem;
+	}
+
+	&.cornerplantimage{
+		left: -0.35rem;
+	}
+
+	&.leafstuffimage{
+		top: 6.5rem;
+		right: 0;
+	}
+
+	&.invertleafstuff{
+		transform: scale(-1, 1);
+	}
+}

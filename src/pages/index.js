@@ -34,7 +34,7 @@ const IndexPage = () => {
         			<div className={"introheading"}>
         				<div className={"heading"}>
         					{/*<span className={"terminalicon"}>&gt;</span>*/}
-                            {" "}Oh Hey There!{" "}
+                            Oh Hey There!{" "}
                             <span className={"blinkerpad"}>_</span>
         				</div>
         			</div>
