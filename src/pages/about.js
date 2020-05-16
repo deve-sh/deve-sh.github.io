@@ -39,8 +39,6 @@ const AboutPage = () => {
 									cultures, places and people, and that number is only going to
 									grow as I age and discover more and more!
 								</p>
-
-								<p>Learn more about me below.</p>
 							</div>
 						</div>
 						<div className={"about-top-right col-md-5"}>
@@ -49,14 +47,14 @@ const AboutPage = () => {
 					</div>
 				</section>
 				<section className={"about-descriptors darksection row"}>
-					<div className={"col-md-6 imagecol"}>
+					<div className={"col-xl-6 imagecol"}>
 						<Image
 							src={ChildHoodImage}
 							alt={"Childhood"}
 							className={"fullimage"}
 						/>
 					</div>
-					<div className={"col-md-6 desccol"}>
+					<div className={"col-xl-6 desccol"}>
 						<div className={"heading"}>Childhood</div>
 						<div className={"desc"}>
 							<p>
@@ -77,7 +75,7 @@ const AboutPage = () => {
 					</div>
 				</section>
 				<section className={"about-descriptors row invertrow"}>
-					<div className={"col-md-6 desccol"}>
+					<div className={"col-xl-6 desccol"}>
 						<div className={"heading"}>Teenage and Adolescense</div>
 						<div className={"desc"}>
 							<p>
@@ -95,21 +93,21 @@ const AboutPage = () => {
 							</p>
 						</div>
 					</div>
-					<div className={"col-md-6 teenageimage imagecol"}>
+					<div className={"col-xl-6 teenageimage imagecol"}>
 						<Image src={TeenageImage} alt={"Teenage"} className={"fullimage"} />
 					</div>
 				</section>
-				<section className={"about-descriptors row"}>
-					<div className={"col-md-6 childhoodimage imagecol"}>
+				<section className={"about-descriptors row darksection"}>
+					<div className={"col-xl-6 childhoodimage imagecol"}>
 						<Image
 							src={BeyondImage}
 							alt={"Today and Beyond"}
 							className={"fullimage"}
 						/>
 					</div>
-					<div className={"col-md-6 desccol"}>
+					<div className={"col-xl-6 desccol"}>
 						<div className={"heading"}>Today and Beyond</div>
-						<div className={"desccol"}>
+						<div className={"desc"}>
 							<p>
 								The end of my teen years looked like a triumph to me. With
 								enough effort, I was able to not only pass the subjects I
@@ -126,6 +124,20 @@ const AboutPage = () => {
 								forward to even more goodness in the coming years.
 							</p>
 						</div>
+					</div>
+				</section>
+				<section className={"about-finalcol"}>
+					<Image
+						src={CornerPlantsImage}
+						alt={"Aesthetics"}
+						className={"absoluteimage sticktoright"}
+					/>
+					<div className={"about-finalcol-finalmessage"}>
+						<p>
+							"For me, it’s about finding the thing you like. <br />
+							Doing the best you can do about it.<br />
+							And then finding more of what you like."
+						</p>
 					</div>
 				</section>
 			</div>

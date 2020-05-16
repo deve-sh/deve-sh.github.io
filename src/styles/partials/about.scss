@@ -50,7 +50,100 @@
 	}
 
 	&-descriptors{
+		margin: 0;
+		align-items: center;
+
+		&.invertrow{
+			@media only screen and (max-width: 576px){
+				flex-direction: column-reverse;
+			}
+		}
+
+		&.darksection{
+			background: $footerblack;
+			color: $white;
+		}
+
 		.imagecol{
+			.resimage{
+				width: 100%;
+				height: 100%;
+			}
+
+			display: flex;
+			justify-content: center;
+
+			@media only screen and (min-width: 768px) and (max-width: 1200px){
+				padding: 1rem;
+				.resimage{
+					max-width: 50%;
+					max-height: 50%;
+					border-radius: 0.875rem;
+				}
+			}
+
+			@media only screen and (min-width: 568px) and (max-width: 768px){
+				padding: 1rem;
+				.resimage{
+					max-width: 75%;
+					max-height: 75%;
+					border-radius: 0.875rem;
+				}
+			}
+		}
+
+		.desccol{
+			padding: 0.75rem;
+
+			.heading{
+				font-size: 1.5rem;
+				letter-spacing: 2.3%;
+				font-weight: 600;
+				text-transform: capitalize;
+				margin-bottom: 0.45rem;
+			}
+
+			p{
+				margin-left: 0;
+				margin-bottom: 0.975rem;
+			}
+
+			.desc{
+				font-size: 0.925rem;
+
+				@media only screen and (max-width: 768px){
+					font-size: 0.875rem;
+				}
+			}
+		}
+	}
+
+	&-finalcol{
+		position: relative;
+		min-height: 45vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		&-finalmessage{
+			padding: 1.75rem 0.75rem;
+			width: 100%;
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 1.275rem;
+			letter-spacing: 2.3%;
+			font-weight: 500;
+			line-height: 2;
+
+			@media only screen and (max-width: 768px){
+				font-size: 0.925rem;
+				line-height: 1.618;
+				font-weight: 600;
+			}
+
+			p{
+				margin: 0;
+			}
 		}
 	}
 }
