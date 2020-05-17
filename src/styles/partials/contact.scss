@@ -1,0 +1,104 @@
+.contact{
+	&-toprow{
+		min-height: 70vh;
+		display: flex;
+		align-items: center;
+
+		.fixedcontainer.row{
+			height: 100%;
+			align-items: center;
+
+			@media only screen and (max-width: 576px){
+				margin-top: 1rem;
+
+				&.invertrow{
+					flex-direction: column-reverse;
+				}
+			}
+		}
+
+		&-heading{
+			color: $black;
+			font-size: 2rem;
+			font-weight: 500;
+			letter-spacing: 2%;
+			margin-bottom: 0.625rem;
+		}
+
+		&-desc{
+			font-size: 0.925rem;
+		}
+
+		.contactimage{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 0.75rem;
+
+			.resimage{
+				max-width: 92.5%;
+				max-height: 92.5%;
+			}
+		}
+	}
+
+	&-separators{
+		margin-bottom: 1.5rem;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.dot{
+			border: 0.1rem solid $black;
+			background: $white;
+			height: 0.625rem;
+			width: 0.625rem;
+			border-radius: 50%;
+			margin-right: 0.5rem;
+		}
+	}
+
+	&-socialsection{
+		margin-bottom: 1.5rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.sociallink{
+			color: $black;
+			text-decoration: none;
+			padding: 0.775rem 0.65rem;
+			border-radius: 50%;
+			background: $black;
+			color: $white;
+			display: flex;
+			margin: 0 0.875rem;
+			justify-content: center;
+			align-items: center;
+
+			&.linkedin{
+				background: $linkedin;
+			}
+
+			&.instagram{
+				background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+			}
+
+			&.mail{
+				background: $gmail;
+			}
+		}
+	}
+
+	&-form{
+		background: $white;
+		border: 0.1rem solid $footerblack;
+		padding: 1.5rem 1rem;
+		border-radius: 0.5rem;
+
+		&-container{
+			padding: 1rem 0;
+		}
+	}
+}
