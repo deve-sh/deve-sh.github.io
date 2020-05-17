@@ -7,6 +7,7 @@ import Image from "../components/image"
 import Icon from "../components/icon"
 import SEO from "../components/seo"
 
+import PlantImage from "../images/Plant.svg"
 import ContactImage from "../images/conversation.svg"
 
 const ContactPage = () => {
@@ -96,6 +97,11 @@ const ContactPage = () => {
 					</a>
 				</section>
 				<section className={"contact-form-container"}>
+					<Image
+						src={PlantImage}
+						alt={"Aesthetics"}
+						className={"absoluteimage plantimage"}
+					/>
 					<div className={"fixedcontainer"}>
 						<form
 							className={"contact-form"}
@@ -103,7 +109,10 @@ const ContactPage = () => {
 							rel={"noopener noreferrer"}
 							method={"POST"}
 						>
-							<div className={"contact-form-heading"}>Contact me</div>
+							<div className={"contact-form-heading"}>Contact Form</div>
+							<div className={"contact-form-desc"}>
+								Just fill in the form below and I will definitely respond ASAP!
+							</div>
 						</form>
 					</div>
 				</section>

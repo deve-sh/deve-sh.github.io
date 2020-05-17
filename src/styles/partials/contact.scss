@@ -96,9 +96,24 @@
 		border: 0.1rem solid $footerblack;
 		padding: 1.5rem 1rem;
 		border-radius: 0.5rem;
+		text-align: center;
 
 		&-container{
-			padding: 1rem 0;
+			position: relative;
+
+			.fixedcontainer{
+				padding: 1rem;
+			}
+		}
+
+		&-heading{
+			font-size: 1.35rem;
+			font-weight: 600;
+			letter-spacing: 2.3%;
+		}
+
+		&-desc{
+			font-size: 0.925rem;
 		}
 	}
 }
