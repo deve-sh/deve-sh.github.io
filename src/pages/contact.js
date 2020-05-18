@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 
 import Header from "../components/header"
@@ -6,11 +6,16 @@ import Footer from "../components/footer"
 import Image from "../components/image"
 import Icon from "../components/icon"
 import SEO from "../components/seo"
+import Input from "../components/input"
 
 import PlantImage from "../images/Plant.svg"
 import ContactImage from "../images/conversation.svg"
 
 const ContactPage = () => {
+	const [name, setname] = useState("")
+	const [email, setemail] = useState("")
+	const [desc, setdesc] = useState("")
+
 	return (
 		<React.Fragment>
 			<SEO title="Devesh Kumar - Contact" />
@@ -54,7 +59,7 @@ const ContactPage = () => {
 						aria-label={"View My Github Profile"}
 					>
 						<Icon
-							className={"fab fa-github fa-lg"}
+							className={"fab fa-github fa-2x"}
 							title={"View My Github Profile"}
 						/>
 					</a>
@@ -67,7 +72,7 @@ const ContactPage = () => {
 						aria-label={"View My LinkedIn Profile"}
 					>
 						<Icon
-							className={"fab fa-linkedin-in fa-lg"}
+							className={"fab fa-linkedin-in fa-2x"}
 							title={"View My LinkedIn Profile"}
 						/>
 					</a>
@@ -80,7 +85,7 @@ const ContactPage = () => {
 						aria-label={"View My Instagram Profile"}
 					>
 						<Icon
-							className={"fab fa-instagram fa-lg"}
+							className={"fab fa-instagram fa-2x"}
 							title={"View My Instagram Profile"}
 						/>
 					</a>
@@ -90,10 +95,7 @@ const ContactPage = () => {
 						title={"Email Me"}
 						aria-label={"Email Me"}
 					>
-						<Icon
-							className={"fas fa-envelope fa-lg"}
-							title={"Email Me"}
-						/>
+						<Icon className={"fas fa-envelope fa-2x"} title={"Email Me"} />
 					</a>
 				</section>
 				<section className={"contact-form-container"}>
@@ -106,12 +108,56 @@ const ContactPage = () => {
 						<form
 							className={"contact-form"}
 							target={"_blank"}
-							rel={"noopener noreferrer"}
 							method={"POST"}
+							action={"https://formspree.io/devesh2027@gmail.com"}
 						>
 							<div className={"contact-form-heading"}>Contact Form</div>
 							<div className={"contact-form-desc"}>
 								Just fill in the form below and I will definitely respond ASAP!
+							</div>
+							<div className={"contact-form-inputcontainer"}>
+								<Input
+									type={"text"}
+									name={"Name"}
+									className={"contact-form-input"}
+									required={true}
+									placeholder={"Your Name"}
+									value={name}
+									onChange={e => {
+										e.persist()
+										setname(e.target.value)
+									}}
+								/>
+								<br />
+								<Input
+									type={"email"}
+									name={"Reply-To"}
+									className={"contact-form-input"}
+									required={true}
+									placeholder={"Your Name"}
+									value={email}
+									onChange={e => {
+										e.persist()
+										setemail(e.target.value)
+									}}
+								/>
+								<br />
+								<textarea
+									name={"Message"}
+									className={"contact-form-input"}
+									required={true}
+									placeholder={"Enter your message."}
+									value={desc}
+									onChange={e => {
+										e.persist()
+										setdesc(e.target.value)
+									}}
+								/>
+							</div>
+							<div className={"contact-form-buttoncontainer"}>
+								<button type={"submit"} className={"contact-form-submitbtn"}>
+									Submit
+								</button>
 							</div>
 						</form>
 					</div>

@@ -68,26 +68,27 @@
 		.sociallink{
 			color: $black;
 			text-decoration: none;
-			padding: 0.775rem 0.65rem;
-			border-radius: 50%;
-			background: $black;
-			color: $white;
+			// padding: 0.775rem 0.65rem;
+			// border-radius: 50%;
+			// background: $black;
+			color: $black;
 			display: flex;
-			margin: 0 0.875rem;
+			margin: 0 1rem;
 			justify-content: center;
 			align-items: center;
+			font-size: 1.5rem;
 
-			&.linkedin{
-				background: $linkedin;
-			}
+			// &.linkedin{
+			// 	 background: $linkedin;
+			// }
 
-			&.instagram{
-				background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-			}
+			// &.instagram{
+			// 	 background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+			// }
 
-			&.mail{
-				background: $gmail;
-			}
+			// &.mail{
+			// 	 background: $gmail;
+			// }
 		}
 	}
 
@@ -114,6 +115,45 @@
 
 		&-desc{
 			font-size: 0.925rem;
+		}
+
+		&-input{
+			&container{
+				margin: 0.875rem 0;
+			}
+
+			width: 100%;
+			background: $inputbg;
+			padding: 0.875rem;
+			border-radius: 0.35rem;
+			margin: 0.875rem 0;
+			border: 0.1rem solid $inputbg;
+			transition: 0.4s;
+			font-size: 0.925rem;
+			color: $inputblack;
+
+			&:active, &:focus{
+				border: 0.1rem solid $inputblack;
+				outline: none;
+			}
+		}
+
+		textarea.contact-form-input{
+			min-height: 28.5vh;
+			max-height: 40vh;
+			overflow-y: auto;
+		}
+
+		&-submitbtn{
+			background: $inputblack;
+			color: $white;
+			padding: 0.75rem 1.5rem;
+			border: none;
+			outline: none;
+			transition: 0.4s;
+			&:active, &:focus, &:hover{
+				background: $black;
+			}
 		}
 	}
 }
