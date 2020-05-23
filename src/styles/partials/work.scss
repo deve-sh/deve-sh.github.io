@@ -1,0 +1,42 @@
+.work{
+	line-height: 1.618;
+	&intro{
+		min-height: 75vh;
+		position: relative;
+		display: flex;
+		align-items: center;
+		margin: 1rem 0;
+
+		&-desc{
+			display: flex;
+			flex-flow: column;
+			justify-content: center;
+
+			.workheading{
+				color: $black;
+				font-size: 1.875rem;
+				text-align: center;
+				font-weight: 600;
+				font-family: 'Montserrat', sans-serif; 
+				letter-spacing: 2.3%;
+				line-height: 1.618;
+				margin-top: 0.75rem;
+			}
+
+			.workdesc{
+				margin: 0.75rem 0;
+			}
+		}
+
+		&-image{
+			padding: 0.75rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.resimage{
+				max-width: 90%;
+				max-height: 90%;
+			}
+		}
+	}
+}

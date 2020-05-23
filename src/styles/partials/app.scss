@@ -1,31 +1,31 @@
-*{
+* {
 	box-sizing: border-box;
-	font-family: 'Montserrat', 'Roboto', sans-serif;
+	font-family: "Montserrat", "Roboto", sans-serif;
 }
 
-body{
+body {
 	line-height: 1.618;
 	background: $white;
 	color: $black;
 	width: 100%;
 	max-width: 100%;
 	overflow-x: hidden;
-	font-family: 'Montserrat', 'Roboto', sans-serif;
+	font-family: "Montserrat", "Roboto", sans-serif;
 	font-size: 1rem;
 	font-weight: 400;
 }
 
-.fixedcontainer{
+.fixedcontainer {
 	max-width: 1100px;
 	margin: 0 auto;
 
-	@media only screen and (max-width: 768px){
+	@media only screen and (max-width: 768px) {
 		padding-left: 0.925rem;
 		padding-right: 0.925rem;
 	}
 }
 
-.resimage{
+.resimage {
 	max-width: 100%;
 	max-height: 100%;
 }
@@ -34,35 +34,41 @@ body{
 Absolute images for the cute ones.
 */
 
-.absoluteimage{
+.absoluteimage {
 	position: absolute;
 	top: 1rem;
 	max-width: 5.75rem;
 
-	@media only screen and (max-width: 1000px){
+	@media only screen and (max-width: 1000px) {
 		max-width: 3.5rem;
 		max-height: 5rem;
 	}
 
-	&.cornerplantimage{
+	&.cornerplantimage {
 		left: -0.35rem;
 	}
 
-	&.leafstuffimage{
+	&.leafstuffimage {
 		top: 6.5rem;
 		right: 0;
 	}
 
-	&.invertleafstuff{
+	&.invertleafstuff {
 		transform: scale(-1, 1);
 	}
 
-	&.sticktoright{
+	&.sticktoright {
 		right: 0;
 	}
 
-	&.plantimage{
+	&.plantimage {
 		bottom: 0;
 		top: auto;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.invertrow {
+		flex-direction: column-reverse;
 	}
 }
