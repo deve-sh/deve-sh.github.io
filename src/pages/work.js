@@ -4,11 +4,13 @@ import { Link } from "gatsby"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import Image from "../components/image"
+import Icon from "../components/icon"
 import SEO from "../components/seo"
 
 import GithubCard from "../components/githubcard"
 
 import WorkImage from "../images/WorkIntro.png"
+import HobnobImage from "../images/Hobnob.png"
 
 const WorkPage = () => {
 	return (
@@ -51,6 +53,56 @@ const WorkPage = () => {
 				</section>
 				<section className={"webdev-projects"}>
 					<div className={"fixedcontainer"}>
+						<div className={"webdev-projects-heading"}>Personal Projects</div>
+						<div className={"webdev-projects-heading-desc"}>
+							Take a look at some of my personal projects.
+						</div>
+						<div className={"webdev-projects-singleproject row"}>
+							<div className={"webdev-projects-singleproject-image col-md-7"}>
+								<Image
+									src={HobnobImage}
+									alt={"Hobnob"}
+									className={"hobnobimage"}
+								/>
+							</div>
+							<div className={"webdev-projects-singleproject-desc col-md-5"}>
+								<div className={"webdev-projects-singleproject-desc-heading"}>
+									Hobnob
+								</div>
+								<div className={"webdev-projects-singleproject-desc-desc"}>
+									<p>
+										Hobnob is the crowning jewel of my Web Development skills. I
+										put everything I ever learnt to the test in building this
+										application. From React to Backend Auth to DevOps to AWS.
+									</p>
+									<p>
+										Hobnob is a code-casting service that allows coding
+										institues to move their courses online efficiently.
+									</p>
+									<div
+										className={
+											"webdev-projects-singleproject-desc-buttoncontainer"
+										}
+									>
+										<a
+											href={"https://deve-sh.github.io/hobnob"}
+											target={"_blank"}
+											rel={"noopener noreferrer"}
+											title={"View Hobnob"}
+											aria-label={"View Hobnob"}
+										>
+											<button className={"projectbutton"}>
+												<Icon
+													className={"fas fa-external-link-alt"}
+													title={"View Hobnob"}
+												/>
+												&nbsp;&nbsp;View What Hobnob Is
+											</button>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
 						<div className={"webdev-projects-reposection row"}>
 							<div className={"col-sm-4 repocol"}>
 								<GithubCard
@@ -107,9 +159,7 @@ const WorkPage = () => {
 							<div className={"col-sm-4 repocol"}>
 								<GithubCard
 									repoName={"Pollster"}
-									repoDesc={
-										"A Sexy Voting Web App!"
-									}
+									repoDesc={"A Sexy Voting Web App!"}
 									repoLang={"PHP"}
 									repoLink={"https://github.com/deve-sh/Pollster"}
 								/>

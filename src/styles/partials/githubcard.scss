@@ -18,10 +18,18 @@
 			color: $carddesc;
 		}
 
+		a{
+			text-decoration: none;
+			color: #007bff;
+		}
+
 		&-name{
 			padding-left: 0.5rem;
 			font-weight: 600;
-			letter-spacing: 3.5%;
+			font-size: 0.925rem;
+			letter-spacing: 6.5%;
+
+			text-decoration: none;
 		}
 	}
 
