@@ -11,6 +11,7 @@ import GithubCard from "../components/githubcard"
 
 import WorkImage from "../images/WorkIntro.png"
 import HobnobImage from "../images/Hobnob.png"
+import MyJSONImage from "../images/myjson.png"
 
 const WorkPage = () => {
 	return (
@@ -51,6 +52,11 @@ const WorkPage = () => {
 						</div>
 					</div>
 				</section>
+				<div className={"work-separators"}>
+					<div className={"dot"} />
+					<div className={"dot"} />
+					<div className={"dot"} />
+				</div>
 				<section className={"webdev-projects"}>
 					<div className={"fixedcontainer"}>
 						<div className={"webdev-projects-heading"}>Personal Projects</div>
@@ -58,27 +64,29 @@ const WorkPage = () => {
 							Take a look at some of my personal projects.
 						</div>
 						<div className={"webdev-projects-singleproject row"}>
-							<div className={"webdev-projects-singleproject-image col-md-7"}>
+							<div className={"webdev-projects-singleproject-image col-md-6"}>
 								<Image
 									src={HobnobImage}
 									alt={"Hobnob"}
-									className={"hobnobimage"}
+									className={"hobnobimage projectimage"}
 								/>
 							</div>
-							<div className={"webdev-projects-singleproject-desc col-md-5"}>
+							<div className={"webdev-projects-singleproject-desc col-md-6"}>
 								<div className={"webdev-projects-singleproject-desc-heading"}>
 									Hobnob
 								</div>
 								<div className={"webdev-projects-singleproject-desc-desc"}>
 									<p>
+										Hobnob is a code-casting service that allows coding
+										institues to move their courses online efficiently with
+										interactive code-casts that students can use to learn more
+										effectively, along with more added features.
+									</p>
+									<div>
 										Hobnob is the crowning jewel of my Web Development skills. I
 										put everything I ever learnt to the test in building this
 										application. From React to Backend Auth to DevOps to AWS.
-									</p>
-									<p>
-										Hobnob is a code-casting service that allows coding
-										institues to move their courses online efficiently.
-									</p>
+									</div>
 									<div
 										className={
 											"webdev-projects-singleproject-desc-buttoncontainer"
@@ -96,11 +104,75 @@ const WorkPage = () => {
 													className={"fas fa-external-link-alt"}
 													title={"View Hobnob"}
 												/>
-												&nbsp;&nbsp;View What Hobnob Is
+												&nbsp;&nbsp;Know More
 											</button>
 										</a>
 									</div>
 								</div>
+							</div>
+						</div>
+						<div className={"webdev-projects-singleproject invertrow row"}>
+							<div className={"webdev-projects-singleproject-desc col-md-6"}>
+								<div className={"webdev-projects-singleproject-desc-heading"}>
+									MyJSON
+								</div>
+								<div className={"webdev-projects-singleproject-desc-desc"}>
+									<p>
+										As I previously mentioned, I like solving problems. One
+										problem I usually have is stumbling on a feature in the
+										frontend that the backend isn't ready for, or populating the
+										backend with fake data (Sounds relatable?).
+									</p>
+									<div>
+										To solve all these problems, I created MyJSON, a simple
+										service to make a request to a MyJSON endpoint and get the
+										JSON you need.
+									</div>
+									<div
+										className={
+											"webdev-projects-singleproject-desc-buttoncontainer"
+										}
+									>
+										<a
+											href={"https://myjson.now.sh"}
+											target={"_blank"}
+											rel={"noopener noreferrer"}
+											title={"Try It Out"}
+											aria-label={"Try It Out"}
+										>
+											<button className={"projectbutton"}>
+												<Icon
+													className={"fas fa-external-link-alt"}
+													title={"Try It Out"}
+												/>
+												&nbsp;&nbsp;Try It
+											</button>
+										</a>
+										&nbsp;&nbsp;
+										<a
+											href={"https://github.com/deve-sh/MyJSON"}
+											target={"_blank"}
+											rel={"noopener noreferrer"}
+											title={"View Source On Github"}
+											aria-label={"View Source On Github"}
+										>
+											<button className={"projectbutton"}>
+												<Icon
+													className={"fab fa-github-square fa-lg"}
+													title={"View Source On Github"}
+												/>
+												&nbsp;&nbsp;View Source
+											</button>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div className={"webdev-projects-singleproject-image col-md-6"}>
+								<Image
+									src={MyJSONImage}
+									alt={"MyJSONImage"}
+									className={"hobnobimage projectimage"}
+								/>
 							</div>
 						</div>
 						<div className={"webdev-projects-reposection row"}>
@@ -166,7 +238,44 @@ const WorkPage = () => {
 							</div>
 						</div>
 					</div>
+					<div className={"viewmorework"}>
+						<div className={"flexwork"}>
+							View more of my work on{" "}
+							<a
+								href={"https://github.com/deve-sh/"}
+								title={"Github Profile"}
+								aria-label={"Github Profile"}
+								rel={"noopener noreferrer"}
+								target={"_blank"}
+							>
+								<Icon
+									className={"fab fa-github-square fa-lg"}
+									title={"Github"}
+								/>
+							</a>
+						</div>
+						<div className={"flexwork"}>
+							View my work experience and history on{" "}
+							<a
+								href={"https://www.linkedin.com/in/dev-esh/"}
+								title={"LinkedIn Profile"}
+								aria-label={"LinkedIn Profile"}
+								rel={"noopener noreferrer"}
+								target={"_blank"}
+							>
+								<Icon
+									className={"fab fa-linkedin-in fa-lg"}
+									title={"LinkedIn"}
+								/>
+							</a>
+						</div>
+					</div>
 				</section>
+				<div className={"work-separators"}>
+					<div className={"dot"} />
+					<div className={"dot"} />
+					<div className={"dot"} />
+				</div>
 				<section className={"images"}></section>
 			</div>
 			<Footer />
