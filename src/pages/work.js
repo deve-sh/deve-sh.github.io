@@ -12,6 +12,7 @@ import GithubCard from "../components/githubcard"
 import WorkImage from "../images/WorkIntro.png"
 import HobnobImage from "../images/Hobnob.png"
 import MyJSONImage from "../images/myjson.png"
+import Photos from "../images/workimages.png"
 
 const WorkPage = () => {
 	return (
@@ -276,7 +277,12 @@ const WorkPage = () => {
 					<div className={"dot"} />
 					<div className={"dot"} />
 				</div>
-				<section className={"images"}></section>
+				<section className={"images"}>
+					<div className={"iclickphotos"}>
+						And BTW, I click photos too.
+					</div>
+					<Image src={Photos} alt={"My Photography"} />
+				</section>
 			</div>
 			<Footer />
 		</React.Fragment>
