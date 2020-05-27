@@ -138,4 +138,28 @@
 	.imagecolumn{
 		padding: 0.75rem 1rem;
 	}
+
+	&-myservices{
+		.exposition{
+			text-align: center;
+			font-weight: 500;
+			font-size: 1.05rem;
+			// margin-bottom: 1rem;
+		}
+
+		.brandimages{
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 1.275rem;
+
+			.brandimage{
+				text-align: center;
+				padding: 0.75rem;
+
+				.resimage{
+					max-height: 90%;
+				}
+			}
+		}
+	}
 }

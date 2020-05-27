@@ -13,6 +13,12 @@ import WhiteboardImage from "../images/Whiteboard.svg";
 import CornerPlantsImage from "../images/cornerplants.svg"
 import LeafStuffImage from "../images/leafstuff.svg";
 
+// Brand Images
+import ConvinImage from "../images/convin.png";
+import JagoInvestorImage from "../images/jagoinvestor.png";
+import TheFifthElementImage from "../images/thefifthelement.png";
+import UnergiaImage from "../images/unergia.png";
+
 const IndexPage = () => {
   return <React.Fragment>
     <SEO title="Devesh Kumar | Full Stack Web Developer" />
@@ -101,6 +107,27 @@ const IndexPage = () => {
                 </div>
                 <div className={"col-md-5 imagecolumn"}>
                     <Image src={WhiteboardImage} alt={"Whiteboard for solving problems."} />
+                </div>
+            </div>
+        </section>
+        <section className={"home-myservices"}>
+            <div className={"fixedcontainer"}>
+                <div className={"exposition"}>
+                    My expertise and skills have been useful to:
+                </div>
+                <div className={"brandimages row"}>
+                    <div className={"brandimage col-3"}>
+                        <Image src={ConvinImage} alt={"Convin"} />
+                    </div>
+                    <div className={"brandimage col-3"}>
+                        <Image src={JagoInvestorImage} alt={"Convin"} />
+                    </div>
+                    <div className={"brandimage col-3"}>
+                        <Image src={TheFifthElementImage} alt={"Convin"} />
+                    </div>
+                    <div className={"brandimage col-3"}>
+                        <Image src={UnergiaImage} alt={"Convin"} />
+                    </div>
                 </div>
             </div>
         </section>
