@@ -111,6 +111,15 @@ const Header = props => {
 					&times;
 				</a>
 				<Link
+					to={"/"}
+					title={"Home"}
+					className={"sidenav-link"}
+					aria-label={"Home"}
+					onClick={closeSideNav}
+				>
+					Home
+				</Link>
+				<Link
 					to={"/work"}
 					title={"My Work"}
 					className={"sidenav-link"}

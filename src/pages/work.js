@@ -9,10 +9,19 @@ import SEO from "../components/seo"
 
 import GithubCard from "../components/githubcard"
 
+import CornerPlantsImage from "../images/leafstuff.svg"
+
 import WorkImage from "../images/WorkIntro.png"
+import WorkIntroWebp from "../images/webp/WorkIntro.webp"
+
 import HobnobImage from "../images/Hobnob.png"
+import HobnobWebp from "../images/webp/Hobnob.webp"
+
 import MyJSONImage from "../images/myjson.png"
+import MyJSONWebp from "../images/webp/myjson.webp"
+
 import Photos from "../images/workimages.png"
+import PhotosWebp from "../images/webp/workimages.webp"
 
 const WorkPage = () => {
 	return (
@@ -20,6 +29,12 @@ const WorkPage = () => {
 			<SEO title="Devesh Kumar - Work" />
 			<Header />
 			<div className={"work"}>
+				<Image
+					src={CornerPlantsImage}
+					alt={"Aesthetics"}
+					className={"absoluteimage invertleafstuff"}
+					hideClassFromImage={true}
+				/>
 				<section className={"workintro"}>
 					<div className={"fixedcontainer row invertrow"}>
 						<div className={"workintro-desc col-md-7"}>
@@ -47,8 +62,10 @@ const WorkPage = () => {
 						<div className={"workintro-image col-md-5"}>
 							<Image
 								src={WorkImage}
+								webPImage={WorkIntroWebp}
 								alt={"Work Intro"}
 								className={"workimage"}
+								hideClassFromImage={true}
 							/>
 						</div>
 					</div>
@@ -68,6 +85,7 @@ const WorkPage = () => {
 							<div className={"webdev-projects-singleproject-image col-md-6"}>
 								<Image
 									src={HobnobImage}
+									webPImage={HobnobWebp}
 									alt={"Hobnob"}
 									className={"hobnobimage projectimage"}
 								/>
@@ -171,6 +189,7 @@ const WorkPage = () => {
 							<div className={"webdev-projects-singleproject-image col-md-6"}>
 								<Image
 									src={MyJSONImage}
+									webPImage={MyJSONWebp}
 									alt={"MyJSONImage"}
 									className={"hobnobimage projectimage"}
 								/>
@@ -278,10 +297,8 @@ const WorkPage = () => {
 					<div className={"dot"} />
 				</div>
 				<section className={"images"}>
-					<div className={"iclickphotos"}>
-						And BTW, I click photos too.
-					</div>
-					<Image src={Photos} alt={"My Photography"} />
+					<div className={"iclickphotos"}>And BTW, I click photos too.</div>
+					<Image src={Photos} webPImage={PhotosWebp} alt={"My Photography"} />
 				</section>
 			</div>
 			<Footer />

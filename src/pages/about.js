@@ -7,10 +7,18 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 import AboutSectionImage from "../images/aboutsectionimage.png"
+import AboutSectionWebp from "../images/webp/aboutsectionimage.webp"
+
 import CornerPlantsImage from "../images/leafstuff.svg"
+
 import ChildHoodImage from "../images/Childhood.jpg"
+import ChildHoodWebp from "../images/webp/Childhood.webp"
+
 import TeenageImage from "../images/Teenage.jpg"
+import TeenageWebp from "../images/webp/Teenage.webp"
+
 import BeyondImage from "../images/Beyond.jpg"
+import BeyondWebp from "../images/webp/Beyond.webp"
 
 const AboutPage = () => {
 	return (
@@ -23,6 +31,7 @@ const AboutPage = () => {
 						src={CornerPlantsImage}
 						alt={"Aesthetics"}
 						className={"absoluteimage invertleafstuff"}
+						hideClassFromImage={true}
 					/>
 					<div className={"fixedcontainer row"}>
 						<div className={"col-md-7 about-top-left"}>
@@ -42,7 +51,12 @@ const AboutPage = () => {
 							</div>
 						</div>
 						<div className={"about-top-right col-md-5"}>
-							<Image src={AboutSectionImage} alt={"About Me"} />
+							<Image
+								src={AboutSectionImage}
+								webPImage={AboutSectionWebp}
+								alt={"About Me"}
+								hideClassFromImage={true}
+							/>
 						</div>
 					</div>
 				</section>
@@ -50,6 +64,7 @@ const AboutPage = () => {
 					<div className={"col-xl-6 imagecol"}>
 						<Image
 							src={ChildHoodImage}
+							webPImage={ChildHoodWebp}
 							alt={"Childhood"}
 							className={"fullimage"}
 						/>
@@ -94,13 +109,19 @@ const AboutPage = () => {
 						</div>
 					</div>
 					<div className={"col-xl-6 teenageimage imagecol"}>
-						<Image src={TeenageImage} alt={"Teenage"} className={"fullimage"} />
+						<Image
+							src={TeenageImage}
+							webPImage={TeenageWebp}
+							alt={"Teenage"}
+							className={"fullimage"}
+						/>
 					</div>
 				</section>
 				<section className={"about-descriptors row darksection"}>
 					<div className={"col-xl-6 childhoodimage imagecol"}>
 						<Image
 							src={BeyondImage}
+							webPImage={BeyondWebp}
 							alt={"Today and Beyond"}
 							className={"fullimage"}
 						/>
@@ -131,11 +152,13 @@ const AboutPage = () => {
 						src={CornerPlantsImage}
 						alt={"Aesthetics"}
 						className={"absoluteimage sticktoright"}
+						hideClassFromImage={true}
 					/>
 					<div className={"about-finalcol-finalmessage"}>
 						<p>
 							"For me, it’s about finding the thing you like. <br />
-							Doing the best you can do about it.<br />
+							Doing the best you can do about it.
+							<br />
 							And then finding more of what you like."
 						</p>
 					</div>

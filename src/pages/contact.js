@@ -40,7 +40,11 @@ const ContactPage = () => {
 							</div>
 						</div>
 						<div className={"col-md-6 contactimage"}>
-							<Image src={ContactImage} alt={"Contact Me"} />
+							<Image
+								src={ContactImage}
+								alt={"Contact Me"}
+								hideClassFromImage={true}
+							/>
 						</div>
 					</div>
 				</section>
@@ -103,6 +107,7 @@ const ContactPage = () => {
 						src={PlantImage}
 						alt={"Aesthetics"}
 						className={"absoluteimage plantimage"}
+						hideClassFromImage={true}
 					/>
 					<div className={"fixedcontainer"}>
 						<form
