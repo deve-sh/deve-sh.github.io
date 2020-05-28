@@ -72,3 +72,14 @@ Absolute images for the cute ones.
 		flex-direction: column-reverse;
 	}
 }
+
+.fofcontainer{
+	height: auto;
+	display: flex;
+	justify-content: center;
+
+	.fofimage{
+		max-height: 10rem;
+		max-width: 15.5rem;
+	}
+}
