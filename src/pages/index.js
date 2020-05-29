@@ -102,8 +102,8 @@ const IndexPage = () => {
                   with a keen eye for aesthetics.
                 </p>
                 <p>
-                  I have helped build Tools, startup MVPs, Landing Pages and
-                  also founded a service myself start to finish, from
+                  I have helped build tools, MVPs, Landing Pages and
+                  also founded numerous services myself start to finish, from
                   Conceptualization to Creation to Marketing. The time is for
                   our taking after all!
                 </p>
