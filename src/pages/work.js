@@ -26,7 +26,7 @@ import PhotosWebp from "../images/webp/workimages.webp"
 const WorkPage = () => {
 	return (
 		<React.Fragment>
-			<SEO title="Devesh Kumar - Work" />
+			<SEO title="Devesh Kumar | Work" />
 			<Header />
 			<div className={"work"}>
 				<Image

@@ -18,7 +18,7 @@ const ContactPage = () => {
 
 	return (
 		<React.Fragment>
-			<SEO title="Devesh Kumar - Contact" />
+			<SEO title="Devesh Kumar | Contact" />
 			<Header />
 			<div className={"contact"}>
 				<section className={"contact-toprow"}>
@@ -139,7 +139,7 @@ const ContactPage = () => {
 									name={"Reply-To"}
 									className={"contact-form-input"}
 									required={true}
-									placeholder={"Your Name"}
+									placeholder={"Your Email"}
 									value={email}
 									onChange={e => {
 										e.persist()

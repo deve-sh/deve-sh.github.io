@@ -10,7 +10,7 @@ import fourofour from "../images/404.svg"
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="Not found" />
+    <SEO title="Not Found" />
     <div style={{"textAlign": "center"}}>
     	<div className={"fofcontainer"}>
     		<Image src={fourofour} alt={"Not Found"} className={"fofimage"} />

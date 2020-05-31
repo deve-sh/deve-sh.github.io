@@ -102,8 +102,8 @@ const IndexPage = () => {
                   with a keen eye for aesthetics.
                 </p>
                 <p>
-                  I have helped build tools, MVPs, Landing Pages and
-                  also founded numerous services myself start to finish, from
+                  I have helped build tools, MVPs, Landing Pages and also
+                  founded numerous services myself start to finish, from
                   Conceptualization to Creation to Marketing. The time is for
                   our taking after all!
                 </p>
@@ -149,7 +149,7 @@ const IndexPage = () => {
             <div className={"exposition"}>
               My expertise and skills have been useful to:
             </div>
-            <div className={"brandimages row"}>
+            <div className={"brandimages row col-md-6"}>
               <div className={"brandimage col-3"}>
                 <Image
                   src={ConvinImage}
@@ -164,6 +164,8 @@ const IndexPage = () => {
                   alt={"Convin"}
                 />
               </div>
+            </div>
+            <div className={"brandimages row col-md-6"}>
               <div className={"brandimage col-3"}>
                 <Image
                   src={TheFifthElementImage}

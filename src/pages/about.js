@@ -23,7 +23,7 @@ import BeyondWebp from "../images/webp/Beyond.webp"
 const AboutPage = () => {
 	return (
 		<React.Fragment>
-			<SEO title="Devesh Kumar - About" />
+			<SEO title="Devesh Kumar | About" />
 			<Header />
 			<div className={"about"}>
 				<section className={"about-top"}>
