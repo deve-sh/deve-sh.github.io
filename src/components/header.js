@@ -18,6 +18,16 @@ const Header = props => {
 		}
 	}
 
+	const icons = [
+		"fas fa-heart",
+		"fas fa-coffee",
+		"fas fa-cookie",
+	]
+
+	const selectIcon = () => {
+		return icons[Math.floor(Math.random() * icons.length)];
+	}
+
 	return (
 		<header className={"header"}>
 			<div className={"fixedcontainer row"}>
@@ -151,6 +161,15 @@ const Header = props => {
 					<div className={"dot"} />
 					<div className={"dot"} />
 					<div className={"dot"} />
+				</div>
+				<br />
+				<div className={"sidenav-message"}>
+					With{" "}
+					<Icon
+						className={"footer-icon " + selectIcon()}
+						title={"Love"}
+					/>{" "}
+					from Devesh.
 				</div>
 			</div>
 		</header>

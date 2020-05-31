@@ -63,6 +63,11 @@
 		overflow-x: hidden;
 		padding-top: 60px;
 		transition: 0.5s;
+
+		&-message{
+			color: $white;
+			font-size: 1.125rem;
+		}
 	}
 
 	.sidenav a {

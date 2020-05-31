@@ -275,7 +275,7 @@ const WorkPage = () => {
 							</a>
 						</div>
 						<div className={"flexwork"}>
-							View my work experience and history on{" "}
+							View my work history on{" "}
 							<a
 								href={"https://www.linkedin.com/in/dev-esh/"}
 								title={"LinkedIn Profile"}

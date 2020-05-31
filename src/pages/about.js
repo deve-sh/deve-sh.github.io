@@ -156,10 +156,10 @@ const AboutPage = () => {
 					/>
 					<div className={"about-finalcol-finalmessage"}>
 						<p>
-							"For me, it’s about finding the thing you like. <br />
+							<span className="quotes">"</span>For me, it’s about finding the thing you like. <br />
 							Doing the best you can do about it.
 							<br />
-							And then finding more of what you like."
+							And then finding more of what you like.<span className="quotes">"</span>
 						</p>
 					</div>
 				</section>

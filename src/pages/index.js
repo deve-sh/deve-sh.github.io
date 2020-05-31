@@ -150,14 +150,14 @@ const IndexPage = () => {
               My expertise and skills have been useful to:
             </div>
             <div className={"brandimages row col-md-6"}>
-              <div className={"brandimage col-3"}>
+              <div className={"brandimage col-6"}>
                 <Image
                   src={ConvinImage}
                   webPImage={ConvinWebp}
                   alt={"Convin"}
                 />
               </div>
-              <div className={"brandimage col-3"}>
+              <div className={"brandimage col-6"}>
                 <Image
                   src={JagoInvestorImage}
                   webPImage={JagoInvestorWebp}
@@ -166,14 +166,14 @@ const IndexPage = () => {
               </div>
             </div>
             <div className={"brandimages row col-md-6"}>
-              <div className={"brandimage col-3"}>
+              <div className={"brandimage col-6"}>
                 <Image
                   src={TheFifthElementImage}
                   webPImage={TheFifthElementWebp}
                   alt={"The Fifth Element"}
                 />
               </div>
-              <div className={"brandimage col-3"}>
+              <div className={"brandimage col-6"}>
                 <Image
                   src={UnergiaImage}
                   webPImage={UnergiaWebp}
@@ -182,6 +182,7 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
+          <br />
         </section>
       </div>
       <Footer />
