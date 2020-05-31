@@ -149,36 +149,38 @@ const IndexPage = () => {
             <div className={"exposition"}>
               My expertise and skills have been useful to:
             </div>
-            <div className={"brandimages row col-md-6"}>
-              <div className={"brandimage col-6"}>
-                <Image
-                  src={ConvinImage}
-                  webPImage={ConvinWebp}
-                  alt={"Convin"}
-                />
+            <div className={"row"}>
+              <div className={"brandimages row col-md-6"}>
+                <div className={"brandimage col-6"}>
+                  <Image
+                    src={ConvinImage}
+                    webPImage={ConvinWebp}
+                    alt={"Convin"}
+                  />
+                </div>
+                <div className={"brandimage col-6"}>
+                  <Image
+                    src={JagoInvestorImage}
+                    webPImage={JagoInvestorWebp}
+                    alt={"Convin"}
+                  />
+                </div>
               </div>
-              <div className={"brandimage col-6"}>
-                <Image
-                  src={JagoInvestorImage}
-                  webPImage={JagoInvestorWebp}
-                  alt={"Convin"}
-                />
-              </div>
-            </div>
-            <div className={"brandimages row col-md-6"}>
-              <div className={"brandimage col-6"}>
-                <Image
-                  src={TheFifthElementImage}
-                  webPImage={TheFifthElementWebp}
-                  alt={"The Fifth Element"}
-                />
-              </div>
-              <div className={"brandimage col-6"}>
-                <Image
-                  src={UnergiaImage}
-                  webPImage={UnergiaWebp}
-                  alt={"Unergia"}
-                />
+              <div className={"brandimages row col-md-6"}>
+                <div className={"brandimage col-6"}>
+                  <Image
+                    src={TheFifthElementImage}
+                    webPImage={TheFifthElementWebp}
+                    alt={"The Fifth Element"}
+                  />
+                </div>
+                <div className={"brandimage col-6"}>
+                  <Image
+                    src={UnergiaImage}
+                    webPImage={UnergiaWebp}
+                    alt={"Unergia"}
+                  />
+                </div>
               </div>
             </div>
           </div>
