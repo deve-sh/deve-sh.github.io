@@ -10,6 +10,8 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
+import Favicon from "./favicon.png";
+
 function SEO({ description, lang, meta, title }) {
   const metaDescription =
     description || "Personal Portfolio Website of Web Developer Devesh Kumar."
@@ -69,6 +71,7 @@ function SEO({ description, lang, meta, title }) {
         name="description"
         content="Personal Portfolio Website of Web Developer Devesh Kumar."
       />
+      <link rel="icon" href={Favicon} />
       <link
         rel="stylesheet"
         href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
