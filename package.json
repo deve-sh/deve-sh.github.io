@@ -36,7 +36,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "deploy": "gatsby build && cp CNAME ./public/ && git checkout master && git checkout development -- public && mv public/* ./ && rm src/ && rm public/",
+    "deploy": "cp CNAME ./public/ && git checkout development && git merge -s ours master && git checkout master && git merge development && mv public/* ./ && rm src/ && rm public/",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
