@@ -44,7 +44,7 @@ const AboutPage = () => {
 
 								<p>
 									I am from Bhopal, but have lived in 12 cities since I was
-									born. So it is safe to assume that I have seen quite a lot ot
+									born. So it is safe to assume that I have seen quite a lot of
 									cultures, places and people, and that number is only going to
 									grow as I age and discover more and more!
 								</p>
