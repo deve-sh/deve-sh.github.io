@@ -38,6 +38,14 @@ const Header = props => {
 				</div>
 				<div className={"col-9 headerright"}>
 					<div className={"linkscontainer"}>
+						<a
+							href={"https://blog.devesh.tech"}
+							title={"My Blog - Hobnobs"}
+							className={"headerlink"}
+							aria-label={"My Blog - Hobnobs"}
+						>
+							Blog
+						</a>
 						<Link
 							to={"/work"}
 							title={"My Work"}
@@ -129,6 +137,15 @@ const Header = props => {
 				>
 					Home
 				</Link>
+				<a
+					href={"https://blog.devesh.tech"}
+					title={"My Blog - Hobnobs"}
+					className={"sidenav-link"}
+					aria-label={"My Blog - Hobnobs"}
+					onClick={closeSideNav}
+				>
+					Blog
+				</a>
 				<Link
 					to={"/work"}
 					title={"My Work"}
