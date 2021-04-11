@@ -57,8 +57,8 @@ const IndexPage = () => {
               <div className={"introdesc"}>
                 <p>Hi, I am Devesh.</p>
                 <p>
-                  I am a Full Stack Web Developer, Passionate Programmer,
-                  Hobbyist Photographer, Video Editor and a travel enthusiast.
+                  I am a Full Stack Software Engineer, Passionate Programmer,
+                  Hobbyist Photographer and a travel enthusiast.
                 </p>
                 <p>
                   Basically everything you expect a 20 year old to talk about.
@@ -66,7 +66,7 @@ const IndexPage = () => {
                 <p>
                   But above everything I mentioned above, I am a learner, a
                   lifelong learner.
-                  <br />I learn stuff I'm interested in, not just stuff that's
+                  <br />I learn stuff that interests me, not what's
                   trendy.
                 </p>
               </div>
