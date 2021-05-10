@@ -71,7 +71,7 @@ const IndexPage = () => {
                 </p>
               </div>
             </div>
-            <div className={"introright col-md-5"}>
+            <div className={"introright text-center col-md-5"}>
               <Image
                 src={IntroSectionImage}
                 webPImage={IntroSectionWebp}
@@ -88,7 +88,7 @@ const IndexPage = () => {
         />
         <section className={"home-whatido"}>
           <div className={"row fixedcontainer"}>
-            <div className={"col-md-5 imagecolumn"}>
+            <div className={"col-md-5 imagecolumn text-center"}>
               <Image src={WhatIdoImage} alt={"What I do?"} />
             </div>
             <div className={"col-md-7 whatido-right"}>
@@ -135,7 +135,7 @@ const IndexPage = () => {
                 </p>
               </div>
             </div>
-            <div className={"col-md-5 imagecolumn"}>
+            <div className={"col-md-5 imagecolumn text-center"}>
               <Image
                 src={WhiteboardImage}
                 alt={"Whiteboard for solving problems."}

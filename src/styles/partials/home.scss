@@ -60,13 +60,18 @@
 			display: flex;
 			justify-content: center;
 
-			@media only screen and (max-width: 768px){
-				padding: 0 0.75rem;
-			}
-
 			.resimage{
 				max-width: 97.5%;
 				max-height: 97.5%;
+			}
+
+			@media only screen and (max-width: 768px){
+				padding: 0 0.75rem;
+
+				.resimage {
+					max-width: 67.5%;
+					max-height: 67.5%;
+				}
 			}
 		}
 	}
