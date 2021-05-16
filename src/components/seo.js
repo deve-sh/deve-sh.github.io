@@ -13,9 +13,9 @@ import Favicon from "./favicon.png";
 
 function SEO({ description, lang, meta, title }) {
   const metaDescription =
-    description || "Personal Portfolio Website of Web Developer Devesh Kumar."
+    description || "Personal Portfolio Website of Full Stack Engineer Devesh Kumar."
   const author = "Devesh Kumar"
-  title = title || "Devesh Kumar - Full Stack Web Developer"
+  title = title || "Devesh Kumar | Full Stack Engineer"
 
   return (
     <Helmet
@@ -68,7 +68,7 @@ function SEO({ description, lang, meta, title }) {
       />
       <meta
         name="description"
-        content="Personal Portfolio Website of Web Developer Devesh Kumar."
+        content="Personal Portfolio Website of Full Stack Engineer Devesh Kumar."
       />
       <link rel="icon" href={Favicon} />
       <link
