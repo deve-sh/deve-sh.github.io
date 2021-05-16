@@ -30,7 +30,7 @@ import UnergiaWebp from "../images/webp/unergia.webp"
 const IndexPage = () => {
   return (
     <React.Fragment>
-      <SEO title="Devesh Kumar | Full Stack Web Developer" />
+      <SEO title="Devesh Kumar | Full Stack Engineer" />
       <Header />
       <div className={"home"}>
         <section className={"home-intro"}>
