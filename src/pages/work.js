@@ -239,7 +239,7 @@ const WorkPage = () => {
                     >
                       <button className={"projectbutton"}>
                         <Icon
-                          className={"fab fa-github-square fa-lg"}
+                          className={"fab fa-github fa-lg"}
                           title={"View Source On Github"}
                         />
                         &nbsp;&nbsp;View Source
@@ -331,7 +331,7 @@ const WorkPage = () => {
                 target={"_blank"}
               >
                 <Icon
-                  className={"fab fa-github-square fa-lg"}
+                  className={"fab fa-github fa-lg"}
                   title={"Github"}
                 />
               </a>
