@@ -330,10 +330,7 @@ const WorkPage = () => {
                 rel={"noopener noreferrer"}
                 target={"_blank"}
               >
-                <Icon
-                  className={"fab fa-github fa-lg"}
-                  title={"Github"}
-                />
+                <Icon className={"fab fa-github fa-lg"} title={"Github"} />
               </a>
             </div>
             <div className={"flexwork"}>
@@ -348,6 +345,24 @@ const WorkPage = () => {
                 <Icon
                   className={"fab fa-linkedin-in fa-lg"}
                   title={"LinkedIn"}
+                />
+              </a>
+            </div>
+            <div className={"flexwork"}>
+              View my resume{" "}
+              <a
+                href={
+                  "https://drive.google.com/file/d/16OkqANJ-37oyEaRWFukzBtX8z8h4DBvN/view?usp=sharing"
+                }
+                title={"View Resume"}
+                aria-label={"View Resume"}
+                rel={"noopener noreferrer"}
+                target={"_blank"}
+              >
+                here.
+                <Icon
+                  className={"far fa-file-pdf fa-lg"}
+                  title={"View Resume"}
                 />
               </a>
             </div>
