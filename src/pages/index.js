@@ -27,6 +27,9 @@ import TheFifthElementWebp from "../images/webp/thefifthelement.webp"
 import UnergiaImage from "../images/unergia.png"
 import UnergiaWebp from "../images/webp/unergia.webp"
 
+import SolarLadderImage from "../images/solarladder-logo.png"
+import SolarLadderWebp from "../images/webp/solarladder-logo.webp"
+
 const IndexPage = () => {
   return (
     <React.Fragment>
@@ -66,8 +69,7 @@ const IndexPage = () => {
                 <p>
                   But above everything I mentioned above, I am a learner, a
                   lifelong learner.
-                  <br />I learn stuff that interests me, not what's
-                  trendy.
+                  <br />I learn stuff that interests me, not what's trendy.
                 </p>
               </div>
             </div>
@@ -148,38 +150,45 @@ const IndexPage = () => {
             <div className={"exposition"}>
               My expertise and skills have been useful to:
             </div>
-            <div className={"row"}>
-              <div className={"brandimages row col-md-6"}>
-                <div className={"brandimage col-6"}>
-                  <Image
-                    src={ConvinImage}
-                    webPImage={ConvinWebp}
-                    alt={"Convin"}
-                  />
-                </div>
-                <div className={"brandimage col-6"}>
-                  <Image
-                    src={JagoInvestorImage}
-                    webPImage={JagoInvestorWebp}
-                    alt={"Convin"}
-                  />
-                </div>
+            <div
+              className={
+                "row brandimages align-items-center justify-content-center"
+              }
+            >
+              <div className={"brandimage col-4 p-3"}>
+                <Image
+                  src={ConvinImage}
+                  webPImage={ConvinWebp}
+                  alt={"Convin"}
+                />
               </div>
-              <div className={"brandimages row col-md-6"}>
-                <div className={"brandimage col-6"}>
-                  <Image
-                    src={TheFifthElementImage}
-                    webPImage={TheFifthElementWebp}
-                    alt={"The Fifth Element"}
-                  />
-                </div>
-                <div className={"brandimage col-6"}>
-                  <Image
-                    src={UnergiaImage}
-                    webPImage={UnergiaWebp}
-                    alt={"Unergia"}
-                  />
-                </div>
+              <div className={"brandimage col-4 p-3"}>
+                <Image
+                  src={JagoInvestorImage}
+                  webPImage={JagoInvestorWebp}
+                  alt={"Convin"}
+                />
+              </div>
+              <div className={"brandimage col-4 p-3"}>
+                <Image
+                  src={TheFifthElementImage}
+                  webPImage={TheFifthElementWebp}
+                  alt={"The Fifth Element"}
+                />
+              </div>
+              <div className={"brandimage col-4 p-3"}>
+                <Image
+                  src={UnergiaImage}
+                  webPImage={UnergiaWebp}
+                  alt={"Unergia"}
+                />
+              </div>
+              <div className={"brandimage col-4 p-3"}>
+                <Image
+                  src={SolarLadderImage}
+                  webPImage={SolarLadderWebp}
+                  alt={"Solar Ladder"}
+                />
               </div>
             </div>
           </div>
