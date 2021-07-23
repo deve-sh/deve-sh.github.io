@@ -30,6 +30,9 @@ import UnergiaWebp from "../images/webp/unergia.webp"
 import SolarLadderImage from "../images/solarladder-logo.png"
 import SolarLadderWebp from "../images/webp/solarladder-logo.webp"
 
+import UnacademyImage from "../images/unacademy_logo.svg"
+import UnacademyWebp from "../images/webp/unacademy_logo.webp"
+
 const IndexPage = () => {
   return (
     <React.Fragment>
@@ -157,16 +160,26 @@ const IndexPage = () => {
             >
               <div className={"brandimage col-4 p-3"}>
                 <Image
+                  src={UnacademyImage}
+                  webPImage={UnacademyWebp}
+                  alt={"Unacademy"}
+                  className={"p-2"}
+                />
+              </div>
+              <div className={"brandimage col-4 p-3"}>
+                <Image
                   src={ConvinImage}
                   webPImage={ConvinWebp}
                   alt={"Convin"}
+                  className={"p-1"}
                 />
               </div>
               <div className={"brandimage col-4 p-3"}>
                 <Image
                   src={JagoInvestorImage}
                   webPImage={JagoInvestorWebp}
-                  alt={"Convin"}
+                  alt={"JagoInvestor"}
+                  className={"p-2"}
                 />
               </div>
               <div className={"brandimage col-4 p-3"}>
@@ -174,6 +187,7 @@ const IndexPage = () => {
                   src={TheFifthElementImage}
                   webPImage={TheFifthElementWebp}
                   alt={"The Fifth Element"}
+                  className={"p-1"}
                 />
               </div>
               <div className={"brandimage col-4 p-3"}>
@@ -181,6 +195,7 @@ const IndexPage = () => {
                   src={UnergiaImage}
                   webPImage={UnergiaWebp}
                   alt={"Unergia"}
+                  className={"p-1"}
                 />
               </div>
               <div className={"brandimage col-4 p-3"}>
@@ -188,6 +203,7 @@ const IndexPage = () => {
                   src={SolarLadderImage}
                   webPImage={SolarLadderWebp}
                   alt={"Solar Ladder"}
+                  className={"p-2"}
                 />
               </div>
             </div>
