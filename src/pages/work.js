@@ -260,6 +260,26 @@ const WorkPage = () => {
             <div className={"webdev-projects-reposection row"}>
               <div className={"col-sm-4 repocol"}>
                 <GithubCard
+                  repoName={"NoteItDown"}
+                  repoDesc={
+                    "A Simple Yet Extensive Note Taking Workspace Application for an entire team. Inspired By Notion 📓"
+                  }
+                  repoLang={"JavaScript"}
+                  repoLink={"https://github.com/deve-sh/NoteItDown"}
+                />
+              </div>
+              <div className={"col-sm-4 repocol"}>
+                <GithubCard
+                  repoName={"Smallet"}
+                  repoDesc={
+                    "A simple digital wallet for everyone. Built with Next.js ♥"
+                  }
+                  repoLang={"TypeScript"}
+                  repoLink={"https://github.com/deve-sh/Smallet"}
+                />
+              </div>
+              <div className={"col-sm-4 repocol"}>
+                <GithubCard
                   repoName={"Fiddler"}
                   repoDesc={
                     "A State of the Art HTML, CSS and JS Fiddle created using React."
@@ -288,8 +308,6 @@ const WorkPage = () => {
                   repoLink={"https://github.com/deve-sh/InternsHub"}
                 />
               </div>
-            </div>
-            <div className={"webdev-projects-reposection row"}>
               <div className={"col-sm-4 repocol"}>
                 <GithubCard
                   repoName={"DoggoDB"}
@@ -300,7 +318,9 @@ const WorkPage = () => {
                   repoLink={"https://github.com/deve-sh/DoggoDB"}
                 />
               </div>
-              <div className={"col-sm-4 repocol"}>
+            </div>
+            <div className={"webdev-projects-reposection row"}>
+              {/*<div className={"col-sm-4 repocol"}>
                 <GithubCard
                   repoName={"Issuer"}
                   repoDesc={
@@ -317,7 +337,7 @@ const WorkPage = () => {
                   repoLang={"PHP"}
                   repoLink={"https://github.com/deve-sh/Pollster"}
                 />
-              </div>
+                </div>*/}
             </div>
           </div>
           <div className={"viewmorework"}>
