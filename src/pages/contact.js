@@ -17,7 +17,7 @@ const ContactPage = () => {
 
 	return (
 		<React.Fragment>
-			<SEO title="Devesh Kumar | Contact" />
+			<SEO title="Devesh Kumar | Contact Me" />
 			<Header />
 			<div className={"contact"}>
 				<section className={"contact-toprow"}>
