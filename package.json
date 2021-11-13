@@ -1,0 +1,52 @@
+{
+  "name": "devesh-kumar",
+  "private": true,
+  "description": "A personal portfolio website.",
+  "version": "0.1.0",
+  "author": "Devesh Kuamr",
+  "dependencies": {
+    "gatsby": "^2.20.35",
+    "gatsby-image": "^2.3.5",
+    "gatsby-plugin-manifest": "^2.3.7",
+    "gatsby-plugin-offline": "^3.1.5",
+    "gatsby-plugin-react-helmet": "^3.2.5",
+    "gatsby-plugin-sass": "^2.3.1",
+    "gatsby-plugin-sharp": "^2.5.7",
+    "gatsby-source-filesystem": "^2.2.5",
+    "gatsby-transformer-sharp": "^2.4.7",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "prettier": "2.0.4"
+  },
+  "keywords": [
+    "devesh",
+    "kumar",
+    "personal",
+    "website",
+    "portfolio"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "deploy": "cp CNAME ./public/ && git checkout development && git merge -s ours master && git checkout master && git merge development && mv public/* ./ && rm -rf src/ && rm -rf public/ && git add . && git commit -m \"Production build.\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

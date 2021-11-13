@@ -1,0 +1,14 @@
+@import "./variables/variables";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+// Partial Styling
+
+@import "partials/bootstrap";
+@import "partials/app";
+@import "partials/header";
+@import "partials/home";
+@import "partials/footer";
+@import "partials/about";
+@import "partials/contact";
+@import "partials/work";
+@import "partials/githubcard";

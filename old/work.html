@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <title>Work - Devesh Kumar</title>
+
+	  <!-- STYLES -->
+	  <link rel="icon" href="files/icon.png">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	  <link rel="stylesheet" type="text/css" href="styles/style.css">
+	  <link rel="stylesheet" type="text/css" media="screen and (max-width: 900px)" href="styles/smallscreen.css">
+
+	  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="styles/ultrasmall.css">
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+	  <!-- META -->
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta name="description" content="Website of Devesh Kumar, a freelance Web Designer and Developer.">
+	  <meta name="HandheldFriendly" content="True">
+	  <meta name="Author" content="Devesh Kumar">
+</head>
+<body onload="repoFiller()">
+	<div id="menu" style="border-top: 0.3rem solid #0cb19a">
+		<div class="left" style="font-weight: bold;">
+			<a href='index.html' aria-label="Home">Devesh</a>
+		</div>
+			<div class="right">
+				<div class="nonresponse">
+					<a href="index.html">Home</a>
+					&nbsp;&nbsp;&nbsp;
+					<a href="contact.html">Contact</a>
+				</div>
+				<div class="response">
+					<a href="javascript:void(0)" aria-label="Open Navigation" onclick="opennav()"><i class="fas fa-bars fa-lg"></i></a>
+				</div>
+			</div>
+	</div>
+	<div id='main'>
+		<!-- MAIN -->
+		<div id="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" ara-label="Close Navigation" onclick="closenav()">&times;</a>
+			<div align="center"> 
+			 <br>
+			 <ul style="list-style: none; padding: 0px;">
+			  <li><a href="index.html" onclick="closenav()">Home</a></li>
+			  <li><a href="contact.html" onclick='closenav()'>Contact</a></li>
+			 </ul>
+			  <br><br>
+			  <div class="footerline"></div>
+			  <br><br>
+				<span style='font-size: 0.8em'>With &nbsp; <span class="blesscont"></span> &nbsp; from Devesh Kumar.</span>
+			</div>
+		</div>
+		<div class="workfirst">
+			<h2 style="color: #343434;">My Work</h2>
+			<p style="color: #4a4e53; font-size: 0.9em;">
+				I always have something keeping me busy, I keep up with the latest advacements in the fields day to day.
+				<br>
+				<br>
+				I build projects that challenge my own thinking skills and force me to look up for something new on the internet everytime I get stuck.
+				<br>
+				<br>
+				I particularly like solving difficult coding questions that take me more than an hour to solve, complicated stuff always brings out the best of me.
+				<br>
+				<br>
+				I continously keep widening my skillset and am going to start soon with a lot of Machine Learning. In the mean time, look at some of my projects (Full Disclaimer, they might not be updated as I lead a very active dev life) :
+		</div>
+		<div class="newwork">
+			<div class="row" style="margin: 0 auto;">
+				<div class="col-md-7 workcolumn">
+					<h2>Fiddler</h2>
+					<p>
+						A beautiful and open-source HTML, CSS and JS Fiddle for the average Joe that does not need an overkill place to do it.
+					</p>
+
+					<p>
+						Experience the power of frontend with this one. As everything is managed in the fronend. Written using React and some vanilla JS. This is all a student needs.
+					</p>
+
+					<a href="https://github.com/deve-sh/Fiddler" target="_blank" rel="noreferrer noopener">
+						<button class="littlemore">
+							<i class="fab fa-github-square fa-lg"></i> &nbsp;View On Github
+						</button>
+					</a>
+					
+					<a href="https://fiddler.netlify.com" target="_blank" rel="noreferrer noopener">
+						<button class="littlemore">
+							<i class="fas fa-globe fa-lg"></i> &nbsp;Check it out!
+						</button>
+					</a>
+				</div>
+				<div class="col-md-5 workcolumn">
+					<img src="files/fiddler.png" class="responsiveimage" alt='Notebook! - Project'>
+				</div>
+			</div>
+		</div>
+		<div class="worksecond" style="background: #313131;">
+			<div class="row">
+				<div class="col-md-5 workcolumn">
+					<img src="files/notebook.png" class="responsiveimage" alt='Notebook! - Project'>
+				</div>
+				<div class="col-md-7 workcolumn" style="color: #fff;">
+					<h2>Notebook!</h2>
+					<p>
+						An Open Source, Responsive, Beautiful and Fluid Note Taking Web Application. Built atop AJAX, PHP and SQL.
+					</p>
+
+					<p>
+						Features real time note editing direct from the dashboard and user-restricted features.
+					</p>
+					<a href="https://github.com/deve-sh/Notebook" target="_blank" rel="noreferrer noopener">
+						<button class="littlemore">
+							<i class="fab fa-github-square fa-lg"></i> &nbsp;View On Github
+						</button>
+					</a>
+					
+					<a href="contact.html">
+						<button class="littlemore">
+							<i class="fas fa-comment-alt fa-lg"></i> &nbsp;Contact
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="worksecond" style="background: #1864ab;">
+			<div class="row">
+				<div class="col-md-7 workcolumn" style="color: #ffffff;">
+					<h2>Calit.JS</h2>
+					<p>
+						An Open Source and Beautiful JavaScript Utility to add beautiful calendars to your website.
+					</p>
+					<p>
+						Try It yourself in the documentation.
+					</p>
+
+					<a href="https://github.com/deve-sh/calit.js" target="_blank" rel="noreferrer noopener">
+						<button class="learnmore" style="background: #343434;color: #ffffff;">
+							<i class="fab fa-github-square fa-lg"></i> &nbsp;View On Github
+						</button>
+					</a>
+					
+					<a href="https://deve-sh.github.io/calitjs" target="_blank" rel="noreferrer noopener">
+						<button class="learnmore" style="background: #343434;color: #ffffff;">
+							<i class="fas fa-book fa-lg"></i> &nbsp;Read the Docs
+						</button>
+					</a>
+				</div>
+				<div class="col-md-5 workcolumn">
+					<img src="files/calit.png" class="responsiveimage" alt='Calit.Js - Project'>
+				</div>
+			</div>
+		</div>
+		<div class='repospace'>
+			<div align='center'>Some Other Interesting Projects : </div>
+			<br>
+			<div id='repofiller' class="row">
+				<!-- This will be filled using JavaScript -->
+			</div>
+			<br>
+			<div align="center"><a href="https://github.com/deve-sh" target="_blank" rel="noreferrer noopener"><div class='moreworkbutton'>View All Of My Work</div></a></div>
+		</div>
+		<footer>
+			<div class="header">Anything Interesting?</div>
+			<br>
+			<div align='center'>Even if not, contact me just to say hi.<br><br>
+			<div>
+				With &nbsp; <span class="blesscont"></span> &nbsp; from Devesh Kumar.
+			</div><br>
+			<div align="center"><div class="footerline"></div>
+			<br>
+			<a href="https://github.com/deve-sh" target="_blank" rel="noreferrer noopener" aria-label="Github"><i class="fab fa-github-square fa-lg"></i></a> 
+			&nbsp;&nbsp;
+			<a href="https://instagram.com/d_e_v.e_s_h" target="_blank" rel="noreferrer noopener" aria-label="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
+			&nbsp;&nbsp;
+			<a href="mailto:devesh2027@gmail.com" target="_blank" rel="noreferrer noopener" aria-label="Email"><i class="far fa-envelope fa-lg"></i></a>
+			&nbsp;&nbsp;
+					<a
+						href="https://www.linkedin.com/in/dev-esh/"
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label="LinkedIn"
+						><i class="fab fa-linkedin-in fa-lg"></i
+					></a>
+			</div>
+		</footer>
+		<script type="text/javascript" src="js/workscripts.js" async></script>
+</body>
+</html>
