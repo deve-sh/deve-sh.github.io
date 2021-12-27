@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout and Install required Node.js Version 🛎️
-        uses: actions/checkout@v2.3.1
-        uses: actions/setup-node@v2
+      - uses: actions/checkout@v2.3.1
+      - uses: actions/setup-node@v2
         with:
-          node-version: '14' # For node-sass build compatibility
+          node-version: "14" # For node-sass build compatibility
 
       - name: Install and Build 🔧
         run: |
