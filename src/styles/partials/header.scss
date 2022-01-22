@@ -1,135 +1,135 @@
 .header {
-	border-bottom: 0.1rem solid $headerborder;
-	padding: 0.75rem 0;
-	color: $black;
-	width: 100%;
-	font-family: "Montserrat";
+  border-bottom: 0.1rem solid $headerborder;
+  padding: 0.75rem 0;
+  color: $black;
+  width: 100%;
+  font-family: "Montserrat";
 
-	a {
-		text-decoration: none;
-		color: $black;
-	}
+  a {
+    text-decoration: none;
+    color: $black;
+  }
 
-	&-logo {
-		background: $black;
-		color: $white;
-		padding: 0.5rem 0.625rem;
-		font-weight: 600;
-		font-family: "Roboto", sans-serif;
-		text-decoration: none;
-		display: inline-block;
-	}
+  &-logo {
+    background: $black;
+    color: $white;
+    padding: 0.5rem 0.625rem;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    display: inline-block;
+  }
 
-	.row.fixedcontainer {
-		align-items: center;
-		padding: 0 0.75rem;
+  .row.fixedcontainer {
+    align-items: center;
+    padding: 0 0.75rem;
 
-		.headerright {
-			display: flex;
-			justify-content: flex-end;
+    .headerright {
+      display: flex;
+      justify-content: flex-end;
 
-			.linkscontainer {
-				display: flex;
+      .linkscontainer {
+        display: flex;
 
-				.headerlink {
-					font-size: 0.8rem;
-					font-weight: 600;
-					text-transform: uppercase;
-					margin: 0 1rem;
-				}
+        .headerlink {
+          font-size: 0.8rem;
+          font-weight: 600;
+          text-transform: uppercase;
+          margin: 0 1rem;
+        }
 
-				.headerlink::first-letter {
-					font-size: 1rem;
-				}
+        .headerlink::first-letter {
+          font-size: 1rem;
+        }
 
-				.headericon {
-					font-size: 1.125rem;
-					margin: 0 0.75rem;
-				}
-			}
-		}
-	}
+        .headericon {
+          font-size: 1.125rem;
+          margin: 0 0.75rem;
+        }
+      }
+    }
+  }
 
-	.sidenav {
-		height: 100%;
-		width: 0;
-		position: fixed;
-		z-index: 1075;
-		top: 0;
-		right: 0;
-		opacity: 0.99;
-		text-align: center;
-		background-color: $sidenavbg;
-		overflow-x: hidden;
-		padding-top: 60px;
-		transition: 0.5s;
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1075;
+    top: 0;
+    right: 0;
+    opacity: 0.99;
+    text-align: center;
+    background-color: $sidenavbg;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
 
-		&-message{
-			color: $white;
-			font-size: 1.125rem;
-		}
-	}
+    &-message {
+      color: $white;
+      font-size: 1.125rem;
+    }
+  }
 
-	.sidenav a {
-		text-decoration: none;
-		font-size: 1.25rem;
-		padding: 0.875rem 1.45rem;
-		font-weight: 400;
-		color: $white;
-		display: block;
-		transition: 0.3s;
-	}
+  .sidenav a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 0.875rem 1.45rem;
+    font-weight: 400;
+    color: $white;
+    display: block;
+    transition: 0.3s;
+  }
 
-	/* When you mouse over the navigation links, change their color */
-	.sidenav a:hover {
-		color: $linkhover;
-	}
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: $linkhover;
+  }
 
-	/* Position and style the close button (top right corner) */
-	.sidenav .sidenavcloser {
-		position: absolute;
-		top: 0;
-		right: 1.5rem;
-		font-size: 2rem;
-	}
+  /* Position and style the close button (top right corner) */
+  .sidenav .sidenavcloser {
+    position: absolute;
+    top: 0;
+    right: 1.5rem;
+    font-size: 2rem;
+  }
 
-	.sidenavopener{
-		display: none;
-	}
+  .sidenavopener {
+    display: none;
+  }
 
-	.sidenav-separator-dots{
-		display: flex;
-		justify-content: center;
-		.dot{
-			background: $white;
-			border-radius: 50%;
-			height: 0.35rem;
-			width: 0.35rem;
-			margin-left: 0.75rem;
-		}
-	}
+  .sidenav-separator-dots {
+    display: flex;
+    justify-content: center;
+    .dot {
+      background: $white;
+      border-radius: 50%;
+      height: 0.35rem;
+      width: 0.35rem;
+      margin-left: 0.75rem;
+    }
+  }
 
-	.sociallinks{
-		display: flex;
-		align-items: center;
-		.headericon {
-			font-size: 1.125rem;
-			margin: 0;
-			margin-right: 0.875rem;
-		}
-	}
+  .sociallinks {
+    display: flex;
+    align-items: center;
+    .headericon {
+      font-size: 1.125rem;
+      margin: 0;
+      margin-right: 0.875rem;
+    }
+  }
 
-	@media only screen and (max-width: 600px){
-		.row.fixedcontainer{
-			.headerright{
-				.linkscontainer{
-					display: none;
-				}
-			}
-		}
-		.sidenavopener{
-			display: flex;
-			align-items: center;
-		}
-	}
+  @media only screen and (max-width: 615px) {
+    .row.fixedcontainer {
+      .headerright {
+        .linkscontainer {
+          display: none;
+        }
+      }
+    }
+    .sidenavopener {
+      display: flex;
+      align-items: center;
+    }
+  }
 }
