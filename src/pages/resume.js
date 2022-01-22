@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 
 import Header from "../components/header"
 import Footer from "../components/footer"
@@ -25,6 +26,18 @@ const ResumePage = () => {
   return (
     <React.Fragment>
       <SEO title="Devesh Kumar | Resume" />
+      <Helmet>
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin
+        ></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+          rel="stylesheet"
+        ></link>
+      </Helmet>
       <Header />
       <div className="resume-container">
         <div className="resume">
