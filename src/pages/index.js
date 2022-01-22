@@ -64,7 +64,7 @@ const IndexPage = () => {
                 <p>Hi, I am Devesh.</p>
                 <p>
                   I am a Full Stack Software Engineer, Passionate Programmer,
-                  Hobbyist Photographer and a travel enthusiast.
+                  Hobbyist Photographer and a traveller.
                 </p>
                 <p>
                   Basically everything you expect a 21 year old to talk about.
@@ -72,8 +72,8 @@ const IndexPage = () => {
                 <p>
                   But above everything I mentioned above, I am a learner, a
                   lifelong learner.
-                  <br />I learn stuff that genuinely interests me, not what's
-                  trendy.
+                  <br />I learn stuff that genuinely interests me, not just
+                  what's trendy.
                 </p>
               </div>
             </div>
