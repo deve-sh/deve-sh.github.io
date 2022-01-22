@@ -379,7 +379,7 @@ const WorkPage = () => {
                 rel={"noopener noreferrer"}
                 target={"_blank"}
               >
-                here.
+                here:
                 <Icon
                   className={"far fa-file-pdf fa-lg"}
                   title={"View Resume"}

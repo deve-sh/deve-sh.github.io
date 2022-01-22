@@ -67,12 +67,13 @@ const IndexPage = () => {
                   Hobbyist Photographer and a travel enthusiast.
                 </p>
                 <p>
-                  Basically everything you expect a 20 year old to talk about.
+                  Basically everything you expect a 21 year old to talk about.
                 </p>
                 <p>
                   But above everything I mentioned above, I am a learner, a
                   lifelong learner.
-                  <br />I learn stuff that interests me, not what's trendy.
+                  <br />I learn stuff that genuinely interests me, not what's
+                  trendy.
                 </p>
               </div>
             </div>
