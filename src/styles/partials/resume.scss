@@ -31,12 +31,17 @@
 
     &-secondaryinfo {
       text-align: right;
+      @media (max-width: 768px) {
+        text-align: left;
+        margin-top: 0.35rem;
+      }
 
       &-section {
         margin-bottom: 0.5rem;
 
         a {
           display: inline-block;
+          text-decoration: none;
           &:nth-child(2) {
             margin: 0 0.5rem;
           }

@@ -19,7 +19,7 @@ const ResumePage = () => {
       <div className="resume-container">
         <div className="resume">
           <div className="resume-header row">
-            <div className="resume-header-maininfo col-sm-6">
+            <div className="resume-header-maininfo col-md-6">
               <div className="resume-header-maininfo-heading">Devesh Kumar</div>
               <div className="resume-header-maininfo-subheading">
                 Full Stack Engineer
@@ -28,7 +28,7 @@ const ResumePage = () => {
                 Pune, Delhi
               </div>
             </div>
-            <div className="resume-header-secondaryinfo col-sm-6">
+            <div className="resume-header-secondaryinfo col-md-6">
               <div className="resume-header-secondaryinfo-section">
                 <a href="tel:6263371219" title="Call Me">
                   <InfoChip>
