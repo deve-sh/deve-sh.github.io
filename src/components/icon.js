@@ -2,15 +2,15 @@
 
 import React from "react"
 
-const Icon = props => {
-	return (
-		<i
-			className={`${props.className ? props.className : ""}`}
-			aria-label={props.title ? props.title : "Icon"}
-			aria-hidden={true}
-			title={props.title ? props.title : "Icon"}
-		/>
-	)
+const Icon = ({ className, title }) => {
+  return (
+    <i
+      className={className || ""}
+      aria-label={title || "Icon"}
+      aria-hidden
+      title={title || "Icon"}
+    />
+  )
 }
 
 export default Icon
