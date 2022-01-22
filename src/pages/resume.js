@@ -12,13 +12,23 @@ const ResumePage = () => {
     </div>
   )
 
+  const SectionHeading = ({ children }) => (
+    <div className="resume-sectionheading">{children}</div>
+  )
+
+  const SkillSectionClass = ({ type = "", skillset = "" }) => (
+    <div className="resume-skills-section">
+      <InfoChip text={type} /> {skillset}
+    </div>
+  )
+
   return (
     <React.Fragment>
       <SEO title="Devesh Kumar | Resume" />
       <Header />
       <div className="resume-container">
         <div className="resume">
-          <div className="resume-header row">
+          <section className="resume-header row">
             <div className="resume-header-maininfo col-md-6">
               <div className="resume-header-maininfo-heading">Devesh Kumar</div>
               <div className="resume-header-maininfo-subheading">
@@ -90,7 +100,30 @@ const ResumePage = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </section>
+          <section className="resume-section resume-skills">
+            <SectionHeading>Skills</SectionHeading>
+            <SkillSectionClass
+              type="Languages"
+              skillset="JavaScript, Python, C, C++, Java, SQL, HTML, CSS, PHP"
+            />
+            <SkillSectionClass
+              type="Frameworks"
+              skillset="React, Next.js, Gatsby, Node.js, Express, Svelte, Vue, Jest, Enzyme, Flask, GraphQL"
+            />
+            <SkillSectionClass
+              type="Databases"
+              skillset="Firebase, MongoDB, PostgreSQL, MySQL, PlanetScale"
+            />
+            <SkillSectionClass
+              type="Tools"
+              skillset="Git, Agile Development, Scrum"
+            />
+            <SkillSectionClass
+              type="Soft Skills"
+              skillset="Excellent Communicator, Responsible, Owner, Passionate"
+            />
+          </section>
         </div>
       </div>
       <Footer />
