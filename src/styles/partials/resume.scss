@@ -4,7 +4,6 @@
   border: 0.075rem solid $inputblack;
   border-top: 0.3rem solid $inputblack;
   padding: 1rem;
-  font-family: Arial, sans-serif;
   color: $black;
   font-size: 0.875rem;
 
@@ -34,7 +33,7 @@
         color: $resumeblack;
         &.location {
           color: $resumegrey;
-          font-size: 0.685rem;
+          font-size: 0.75rem;
         }
       }
     }
@@ -68,7 +67,7 @@
     text-transform: uppercase;
     font-weight: bold;
     color: $resumeheading;
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     font-family: Arial;
     margin: 0.5rem 0;
     letter-spacing: 0.025rem;
@@ -82,8 +81,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 500;
-    font-size: 0.75rem;
+    font-weight: 400;
+    font-size: 0.875rem;
     letter-spacing: 0.015rem;
   }
 
@@ -104,6 +103,9 @@
   }
 
   &-additionalinfo {
+    &-experience {
+      position: relative;
+    }
     &-certifications {
       @media (min-width: 768px) {
         border-left: 0.125rem dashed $separatorgrey;
@@ -115,6 +117,9 @@
   .experience-snippet {
     margin-bottom: 0.75rem;
     font-family: Arial;
+    &.hasdot {
+      position: absolute;
+    }
     &-title {
       font-weight: 700;
       font-size: 0.95rem;
@@ -123,7 +128,7 @@
     &-desc,
     &-link {
       font-weight: 500;
-      font-size: 0.75rem;
+      font-size: 0.875rem;
     }
     &-link {
       display: block;
@@ -131,7 +136,7 @@
       text-decoration: none;
     }
     &-duration {
-      font-size: 0.625rem;
+      font-size: 0.725rem;
       font-weight: 500;
       color: $resumedurationgrey;
     }
