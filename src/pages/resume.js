@@ -288,6 +288,26 @@ const ResumePage = () => {
             </section>
           </div>
         </div>
+        <br />
+        <div className="text-center">
+          <a
+            href={
+              "https://drive.google.com/file/d/16OkqANJ-37oyEaRWFukzBtX8z8h4DBvN/view?usp=sharing"
+            }
+            title={"View Resume"}
+            aria-label={"View Resume"}
+            rel={"noopener noreferrer"}
+            target={"_blank"}
+          >
+            <button className={"projectbutton"}>
+              <Icon
+                className={"far fa-file-pdf fa-lg"}
+                title={"Download Resume"}
+              />
+              &nbsp;&nbsp;Download Resume
+            </button>
+          </a>
+        </div>
       </div>
       <Footer />
     </React.Fragment>
