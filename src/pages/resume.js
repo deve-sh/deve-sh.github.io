@@ -23,6 +23,17 @@ const ResumePage = () => {
     </div>
   )
 
+  const ExperienceSnippet = ({ title, duration, company, desc }) => (
+    <div className="experience-snippet">
+      {title && <div className="experience-snippet-title">{title}</div>}
+      {company && <div className="experience-snippet-company">{company}</div>}
+      {duration && (
+        <div className="experience-snippet-duration">{duration}</div>
+      )}
+      {desc && <div className="experience-snippet-desc">{desc}</div>}
+    </div>
+  )
+
   return (
     <React.Fragment>
       <SEO title="Devesh Kumar | Resume" />
@@ -137,6 +148,41 @@ const ResumePage = () => {
               skillset="Excellent Communicator, Responsible, Owner, Passionate"
             />
           </section>
+          <div className="row resume-additioninfo">
+            <section className="col-md-7 resume-additionalinfo-experience">
+              <SectionHeading>Experience</SectionHeading>
+            </section>
+            <section className="col-md-5 resume-additionalinfo-certifications">
+              <SectionHeading>Certifications</SectionHeading>
+              <ExperienceSnippet
+                title="Engineering Virtual Experience"
+                company="Goldman Sachs"
+                duration="Aug 2020"
+              />
+              <ExperienceSnippet
+                title="Engineering Virtual Internship"
+                company="Microsoft"
+                duration="June 2020 - July 2020"
+              />
+              <ExperienceSnippet
+                title="Software Engineering Virtual Experience"
+                company="JP Morgan Chase & Co."
+                duration="May 2020"
+              />
+              <ExperienceSnippet
+                title="Full Stack Web Development"
+                company="freeCodeCamp"
+                duration="Nov 2018 - June 2019"
+              />
+              <br />
+              <SectionHeading>Education</SectionHeading>
+              <ExperienceSnippet
+                title="Bachelor of Computer Science"
+                company="Fergusson College, Pune"
+                duration="2018 - 2021 9.98 CGPA"
+              />
+            </section>
+          </div>
         </div>
       </div>
       <Footer />

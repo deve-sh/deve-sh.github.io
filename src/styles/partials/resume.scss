@@ -4,7 +4,7 @@
   border: 0.075rem solid $inputblack;
   border-top: 0.3rem solid $inputblack;
   padding: 1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: Arial, sans-serif;
   color: $black;
   font-size: 0.75rem;
 
@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Roboto", sans-serif;
 
     &-maininfo {
       font-weight: 500;
@@ -91,6 +92,32 @@
       .infochip {
         min-width: 6.5rem;
       }
+    }
+  }
+
+  &-additionalinfo {
+    &-certifications {
+      @media (min-width: 768px) {
+        border-left: 0.125rem dashed $separatorgrey;
+        padding-left: 0.75rem !important;
+      }
+    }
+  }
+
+  .experience-snippet {
+    margin-bottom: 0.75rem;
+    font-family: Arial;
+    &-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+    &-company {
+      font-weight: 500;
+    }
+    &-duration {
+      font-size: 0.625rem;
+      font-weight: 500;
+      color: $resumedurationgrey;
     }
   }
 }
