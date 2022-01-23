@@ -118,7 +118,23 @@
     margin-bottom: 0.75rem;
     font-family: Arial;
     &.hasdot {
+      position: relative;
+      left: 25px;
+      margin-bottom: 1.25rem;
+
+      .experience-snippet-desc {
+        max-width: 500px;
+      }
+    }
+    &-dot {
       position: absolute;
+      display: block;
+      left: -26px;
+      top: 7.5px;
+      width: 12.5px;
+      height: 12.5px;
+      background-color: $black;
+      border-radius: 50%;
     }
     &-title {
       font-weight: 700;
@@ -128,7 +144,10 @@
     &-desc,
     &-link {
       font-weight: 500;
-      font-size: 0.875rem;
+      font-size: 0.825rem;
+    }
+    &-company {
+      font-size: 0.925rem;
     }
     &-link {
       display: block;
@@ -136,7 +155,7 @@
       text-decoration: none;
     }
     &-duration {
-      font-size: 0.725rem;
+      font-size: 0.7rem;
       font-weight: 500;
       color: $resumedurationgrey;
     }

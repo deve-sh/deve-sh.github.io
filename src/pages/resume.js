@@ -23,8 +23,16 @@ const ResumePage = () => {
     </div>
   )
 
-  const ExperienceSnippet = ({ title, duration, company, desc, link }) => (
-    <div className="experience-snippet">
+  const ExperienceSnippet = ({
+    title,
+    duration,
+    company,
+    desc,
+    link,
+    hasDot = false,
+  }) => (
+    <div className={`experience-snippet ${hasDot ? "hasdot" : ""}`}>
+      {hasDot && <div className="experience-snippet-dot" />}
       {title && <div className="experience-snippet-title">{title}</div>}
       {company && <div className="experience-snippet-company">{company}</div>}
       {link && (
@@ -163,6 +171,62 @@ const ResumePage = () => {
           <div className="row resume-additioninfo">
             <section className="col-md-7 resume-additionalinfo-experience">
               <SectionHeading>Experience</SectionHeading>
+              <ExperienceSnippet
+                hasDot
+                title="Software Engineer"
+                company="Unacademy"
+                duration="Jul 2021 - Present"
+                desc={`Highest contributor since joining. 
+                Part of platform team. 
+                Optimized site, developed POCs in new technologies, 
+                documented and assisted other teams with features. 
+                Conducted Interviews and assisted in hiring of candidates.`}
+              />
+              <ExperienceSnippet
+                hasDot
+                title="Lead Engineer"
+                company="Unergia & Solar Ladder"
+                duration="Apr 2020 - Jul 2021"
+                desc={`Led the work on architecting, creation and scaling of
+                Unergia’s SAAS Platform: SolarLadder, their real-time
+                Business bidding platform, Blog Engine and Residential
+                Solar Marketplace from scratch. Used A/B tests to
+                increase website conversion rate by 300%.`}
+              />
+              <ExperienceSnippet
+                hasDot
+                title="Full Stack Web Developer"
+                company="Maalexi"
+                duration="Apr 2020 - Jul 2021"
+                desc={`Worked on the backend and frontend of a next-gen
+                online marketplace using Next.js, Express, MongoDB
+                (Atlas) and AWS Cloud Offerings.`}
+              />
+              <ExperienceSnippet
+                hasDot
+                title="Backend Engineer"
+                company="EventBeep"
+                duration="Dec 2020 - Feb 2021"
+                desc={`Worked on efficient delivery of notifications to users
+                and the GraphQL backend for the mobile app.`}
+              />
+              <ExperienceSnippet
+                hasDot
+                title="Web Development Intern"
+                company="JagoInvestor.com"
+                duration="Jan 2020 - Feb 2020"
+                desc={`Developed Financial Tools and Calculators for
+                JagoInvestor’s website, setup data warehousing using
+                Firestore and CRM Integration to generate more leads.`}
+              />
+              <ExperienceSnippet
+                hasDot
+                title="React.js Development Intern"
+                company="Convin.ai"
+                duration="Sep 2019 - Nov 2019"
+                desc={`Worked on developing efficient and beautiful Dashboard modules and components using React.JS and Redux for Convin's ML Platform, 
+                with Code Obfuscation for increased Code Security.`}
+              />
             </section>
             <section className="col-md-5 resume-additionalinfo-certifications">
               <SectionHeading>Certifications</SectionHeading>
