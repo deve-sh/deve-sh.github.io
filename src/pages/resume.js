@@ -171,6 +171,7 @@ const ResumePage = () => {
           <div className="row resume-additioninfo">
             <section className="col-md-7 resume-additionalinfo-experience">
               <SectionHeading>Experience</SectionHeading>
+              <div className="resume-additionalinfo-experience-timelineline" />
               <ExperienceSnippet
                 hasDot
                 title="Software Engineer"
@@ -188,7 +189,7 @@ const ResumePage = () => {
                 company="Unergia & Solar Ladder"
                 duration="Apr 2020 - Jul 2021"
                 desc={`Led the work on architecting, creation and scaling of
-                Unergia’s SAAS Platform: SolarLadder, their real-time
+                Unergia's SAAS Platform: SolarLadder, their real-time
                 Business bidding platform, Blog Engine and Residential
                 Solar Marketplace from scratch. Used A/B tests to
                 increase website conversion rate by 300%.`}
@@ -216,7 +217,7 @@ const ResumePage = () => {
                 company="JagoInvestor.com"
                 duration="Jan 2020 - Feb 2020"
                 desc={`Developed Financial Tools and Calculators for
-                JagoInvestor’s website, setup data warehousing using
+                JagoInvestor's website, setup data warehousing using
                 Firestore and CRM Integration to generate more leads.`}
               />
               <ExperienceSnippet
