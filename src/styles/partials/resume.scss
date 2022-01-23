@@ -6,13 +6,21 @@
   padding: 1rem;
   font-family: Arial, sans-serif;
   color: $black;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
+
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.0125rem;
+  }
 
   &-header {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Roboto", sans-serif;
+
+    * {
+      font-family: "Roboto", sans-serif;
+    }
 
     &-maininfo {
       font-weight: 500;
