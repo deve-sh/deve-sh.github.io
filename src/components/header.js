@@ -58,14 +58,14 @@ const Header = props => {
             >
               About
             </Link>
-            {/* <Link
+            <Link
               to={"/resume"}
               title={"My Resume"}
               className={"headerlink"}
               aria-label={"My Resume"}
             >
               Resume
-            </Link> */}
+            </Link>
             <Link
               to={"/contact"}
               title={"Contact"}
@@ -168,7 +168,7 @@ const Header = props => {
         >
           About
         </Link>
-        {/* <Link
+        <Link
           to={"/resume"}
           title={"Resume"}
           className={"sidenav-link"}
@@ -176,7 +176,7 @@ const Header = props => {
           onClick={closeSideNav}
         >
           Resume
-        </Link> */}
+        </Link>
         <Link
           to={"/contact"}
           title={"Contact"}
