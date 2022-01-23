@@ -111,8 +111,16 @@
       font-weight: 700;
       font-size: 0.95rem;
     }
-    &-company {
+    &-company,
+    &-desc,
+    &-link {
       font-weight: 500;
+      font-size: 0.75rem;
+    }
+    &-link {
+      display: block;
+      color: $linkblue;
+      text-decoration: none;
     }
     &-duration {
       font-size: 0.625rem;

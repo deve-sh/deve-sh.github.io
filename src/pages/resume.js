@@ -23,10 +23,20 @@ const ResumePage = () => {
     </div>
   )
 
-  const ExperienceSnippet = ({ title, duration, company, desc }) => (
+  const ExperienceSnippet = ({ title, duration, company, desc, link }) => (
     <div className="experience-snippet">
       {title && <div className="experience-snippet-title">{title}</div>}
       {company && <div className="experience-snippet-company">{company}</div>}
+      {link && (
+        <a
+          href={link}
+          className="experience-snippet-link"
+          rel="noopener norferrer"
+          target="_blank"
+        >
+          {link}
+        </a>
+      )}
       {duration && (
         <div className="experience-snippet-duration">{duration}</div>
       )}
@@ -181,6 +191,33 @@ const ResumePage = () => {
                 company="Fergusson College, Pune"
                 duration="2018 - 2021 9.98 CGPA"
               />
+              <br />
+              <SectionHeading>Projects</SectionHeading>
+              <ExperienceSnippet
+                title="Hobnob"
+                company="An efficient Code-Casting service on the web
+                to help instructors move their courses online."
+                link="https://devesh.tech/hobnob"
+                duration="Nov 2019 - Apr 2020"
+              />
+              <div className="row">
+                <div className="col-6">
+                  <ExperienceSnippet
+                    title="Smallet"
+                    company="A Simplet Digital Wallet"
+                    link="https://smallet.now.sh"
+                    duration="Oct 2021 - Nov 2021"
+                  />
+                </div>
+                <div className="col-6">
+                  <ExperienceSnippet
+                    title="NoteItDown"
+                    company="A Notion-Like workspace for teams."
+                    link="https://noteitdown.now.sh"
+                    duration="Sep 2021 - Oct 2021"
+                  />
+                </div>
+              </div>
             </section>
           </div>
         </div>
