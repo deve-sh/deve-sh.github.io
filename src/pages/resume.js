@@ -33,6 +33,8 @@ const ResumePage = () => {
           className="experience-snippet-link"
           rel="noopener norferrer"
           target="_blank"
+          title={title || company || desc}
+          aria-label={title || company || desc}
         >
           {link}
         </a>
