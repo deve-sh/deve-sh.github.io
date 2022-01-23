@@ -267,7 +267,7 @@ const ResumePage = () => {
                 duration="Nov 2019 - Apr 2020"
               />
               <div className="row">
-                <div className="col-6">
+                <div className="col-6 p-1 pl-0">
                   <ExperienceSnippet
                     title="Smallet"
                     company="A Simplet Digital Wallet"
@@ -275,7 +275,7 @@ const ResumePage = () => {
                     duration="Oct 2021 - Nov 2021"
                   />
                 </div>
-                <div className="col-6">
+                <div className="col-6 pl-1">
                   <ExperienceSnippet
                     title="NoteItDown"
                     company="A Notion-Like workspace for teams."
