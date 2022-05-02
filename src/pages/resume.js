@@ -174,9 +174,16 @@ const ResumePage = () => {
               <div className="resume-additionalinfo-experience-timelineline" />
               <ExperienceSnippet
                 hasDot
+                title="Senior Software Engineer"
+                company="Unacademy"
+                duration="Apr 2022 - Present"
+                desc=""
+              />
+              <ExperienceSnippet
+                hasDot
                 title="Software Engineer"
                 company="Unacademy"
-                duration="Jul 2021 - Present"
+                duration="Jul 2021 - Apr 2022"
                 desc={`Highest contributor since joining. 
                 Part of platform team. 
                 Optimized site, developed POCs in new technologies, 
