@@ -21,8 +21,8 @@ import ConvinWebp from "../images/webp/convin.webp"
 import JagoInvestorImage from "../images/jagoinvestor.png"
 import JagoInvestorWebp from "../images/webp/jagoinvestor.webp"
 
-import TheFifthElementImage from "../images/thefifthelement.png"
-import TheFifthElementWebp from "../images/webp/thefifthelement.webp"
+import MaalexiImage from "../images/maalexilogo.png"
+import MaalexiWebp from "../images/webp/maalexilogo.webp"
 
 import UnergiaImage from "../images/unergia.png"
 import UnergiaWebp from "../images/webp/unergia.webp"
@@ -185,9 +185,9 @@ const IndexPage = () => {
               </div>
               <div className={"brandimage col-4 p-3"}>
                 <Image
-                  src={TheFifthElementImage}
-                  webPImage={TheFifthElementWebp}
-                  alt={"The Fifth Element"}
+                  src={MaalexiImage}
+                  webPImage={MaalexiWebp}
+                  alt={"Maalexi"}
                   className={"p-1"}
                 />
               </div>
