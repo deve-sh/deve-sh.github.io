@@ -280,12 +280,22 @@ const WorkPage = () => {
               </div>
               <div className={"col-sm-4 repocol"}>
                 <GithubCard
-                  repoName={"Fiddler"}
+                  repoName={"Isomorph"}
                   repoDesc={
-                    "A State of the Art HTML, CSS and JS Fiddle created using React."
+                    "A Purpose-Built React SSR and SSG framework inspired by Next.js."
                   }
                   repoLang={"JavaScript"}
-                  repoLink={"https://github.com/deve-sh/Fiddler"}
+                  repoLink={"https://github.com/deve-sh/Isomorph"}
+                />
+              </div>
+              <div className={"col-sm-4 repocol"}>
+                <GithubCard
+                  repoName={"MBlaze"}
+                  repoDesc={
+                    "Making working with MongoDB from the frontend simple and elegant, just like Firestore."
+                  }
+                  repoLang={"TypeScript"}
+                  repoLink={"https://github.com/deve-sh/MBlaze"}
                 />
               </div>
               <div className={"col-sm-4 repocol"}>
@@ -300,22 +310,12 @@ const WorkPage = () => {
               </div>
               <div className={"col-sm-4 repocol"}>
                 <GithubCard
-                  repoName={"InternsHub"}
+                  repoName={"Stratify"}
                   repoDesc={
-                    "A web app that serves as an Internship Providing Website, clean and efficient."
-                  }
-                  repoLang={"PHP"}
-                  repoLink={"https://github.com/deve-sh/InternsHub"}
-                />
-              </div>
-              <div className={"col-sm-4 repocol"}>
-                <GithubCard
-                  repoName={"DoggoDB"}
-                  repoDesc={
-                    "A try at a lightweight database as a localStorage abstraction in the browser."
+                    "A simple tool to build out a static website using nothing but Markdown. Useful for static blog sites and feeds.."
                   }
                   repoLang={"JavaScript"}
-                  repoLink={"https://github.com/deve-sh/DoggoDB"}
+                  repoLink={"https://github.com/deve-sh/Stratify"}
                 />
               </div>
             </div>
