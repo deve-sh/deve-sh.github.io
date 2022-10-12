@@ -32,6 +32,7 @@ import SolarLadderWebp from "../images/webp/solarladder-logo.webp"
 
 import UnacademyImage from "../images/unacademy_logo.svg"
 import UnacademyWebp from "../images/webp/unacademy_logo.webp"
+import { Link } from "gatsby"
 
 const IndexPage = () => {
   return (
@@ -63,17 +64,22 @@ const IndexPage = () => {
               <div className={"introdesc"}>
                 <p>Hi, I am Devesh.</p>
                 <p>
-                  I am a Full Stack Software Engineer, Passionate Programmer,
-                  Hobbyist Photographer and a traveller.
+                  I am a Full Stack Software Engineer, I build web apps and I
+                  architect systems. I reverse engineer tools I use day to day
+                  and write scripts that make my life easy.
                 </p>
                 <p>
-                  Basically everything you expect a 21 year old to talk about.
-                </p>
-                <p>
-                  But above everything I mentioned above, I am a learner, a
-                  lifelong learner.
-                  <br />I learn stuff that genuinely interests me, not just
-                  what's trendy.
+                  Every now and then, you'll see me writing a{" "}
+                  <a
+                    href="https://blog.devesh.tech"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    title="Blog"
+                  >
+                    blog post
+                  </a>{" "}
+                  or reading something interesting. If you can't find me doing
+                  any of the above, I'll probably be outside on a drive.
                 </p>
               </div>
             </div>
@@ -128,16 +134,16 @@ const IndexPage = () => {
               <div className={"solvingproblems-heading"}>Solving Problems</div>
               <div className={"solvingproblems-text"}>
                 <p>
-                  I believe if you have a problem and you are not solving it,
-                  you are wasting your time!
+                  I believe if you can solve a problem but you're not solving
+                  it, you are becoming a part of the problem!
                 </p>
                 <p>
                   I am hence on the constant lookout for problems to solve, I do
                   get a Eureka moment every now and then.
                 </p>
                 <p>
-                  Learn more about the problems I have solved so far in the Work
-                  Section.
+                  Learn more about the problems I have solved so far on my{" "}
+                  <Link to="/work">work page</Link>.
                 </p>
               </div>
             </div>
@@ -164,6 +170,14 @@ const IndexPage = () => {
                   src={UnacademyImage}
                   webPImage={UnacademyWebp}
                   alt={"Unacademy"}
+                  className={"p-2"}
+                />
+              </div>
+              <div className={"brandimage col-4 p-3"}>
+                <Image
+                  src={SolarLadderImage}
+                  webPImage={SolarLadderWebp}
+                  alt={"Solar Ladder"}
                   className={"p-2"}
                 />
               </div>
@@ -197,14 +211,6 @@ const IndexPage = () => {
                   webPImage={UnergiaWebp}
                   alt={"Unergia"}
                   className={"p-1"}
-                />
-              </div>
-              <div className={"brandimage col-4 p-3"}>
-                <Image
-                  src={SolarLadderImage}
-                  webPImage={SolarLadderWebp}
-                  alt={"Solar Ladder"}
-                  className={"p-2"}
                 />
               </div>
             </div>

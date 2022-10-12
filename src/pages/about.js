@@ -36,7 +36,7 @@ const AboutPage = () => {
             <div className={"col-md-7 about-top-left"}>
               <div className={"heading"}>About Me</div>
               <div className={"aboutdesc"}>
-                <p>I am Devesh, a 21 year old Full Stack Engineer.</p>
+                <p>I am Devesh, a Full Stack Engineer.</p>
 
                 <p>
                   I am from Bhopal, but have lived in 12 cities since I was
