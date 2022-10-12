@@ -45,13 +45,13 @@ const IndexPage = () => {
             src={CornerPlantsImage}
             alt={"Aesthetics"}
             className={"absoluteimage cornerplantimage"}
-            hideClassFromImage={true}
+            hideClassFromImage
           />
           <Image
             src={LeafStuffImage}
             alt={"Aesthetics"}
             className={"absoluteimage leafstuffimage"}
-            hideClassFromImage={true}
+            hideClassFromImage
           />
           <div className={"fixedcontainer row"}>
             <div className={"introleft col-md-7"}>
@@ -66,7 +66,7 @@ const IndexPage = () => {
                 <p>
                   I am a Full Stack Software Engineer, I build web apps and I
                   architect systems. I reverse engineer tools I use day to day
-                  and write scripts that make my life easy.
+                  and write scripts that make mine and other people's life easy.
                 </p>
                 <p>
                   Every now and then, you'll see me writing a{" "}
@@ -78,8 +78,9 @@ const IndexPage = () => {
                   >
                     blog post
                   </a>{" "}
-                  or reading something interesting. If you can't find me doing
-                  any of the above, I'll probably be outside on a drive.
+                  , documenting my learnings or reading something interesting.
+                  If you can't find me doing any of the above, I'll probably be
+                  outside on a drive.
                 </p>
               </div>
             </div>
@@ -88,7 +89,7 @@ const IndexPage = () => {
                 src={IntroSectionImage}
                 webPImage={IntroSectionWebp}
                 alt={"Devesh Kumar"}
-                hideClassFromImage={true}
+                hideClassFromImage
               />
             </div>
           </div>
@@ -126,7 +127,7 @@ const IndexPage = () => {
           src={WhatIdoBackground}
           alt={"Background SVG"}
           className={"whatidotopsvg invert"}
-          hideClassFromImage={true}
+          hideClassFromImage
         />
         <section className={"home-solvingproblems"}>
           <div className={"fixedcontainer row"}>
