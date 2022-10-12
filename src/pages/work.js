@@ -22,9 +22,6 @@ import SolarLadderWebp from "../images/webp/SolarLadder.webp"
 import BiddingPlatformImage from "../images/BiddingPlatform.png"
 import BiddingPlatformWebp from "../images/webp/BiddingPlatform.webp"
 
-import MyJSONImage from "../images/myjson.png"
-import MyJSONWebp from "../images/webp/myjson.webp"
-
 import Photos from "../images/workimages.png"
 import PhotosWebp from "../images/webp/workimages.webp"
 
@@ -192,71 +189,6 @@ const WorkPage = () => {
                 </div>
               </div>
             </div>
-            <div className={"webdev-projects-singleproject invertrow row"}>
-              <div className={"webdev-projects-singleproject-desc col-md-6"}>
-                <div className={"webdev-projects-singleproject-desc-heading"}>
-                  MyJSON
-                </div>
-                <div className={"webdev-projects-singleproject-desc-desc"}>
-                  <p>
-                    As I previously mentioned, I like solving problems. One
-                    problem I usually have is stumbling on a feature in the
-                    frontend that the backend isn't ready for, or populating the
-                    backend with fake data (Sounds relatable?).
-                  </p>
-                  <div>
-                    To solve all these problems, I created MyJSON, a simple
-                    service to make a request to a MyJSON endpoint and get the
-                    JSON you need.
-                  </div>
-                  <div
-                    className={
-                      "webdev-projects-singleproject-desc-buttoncontainer"
-                    }
-                  >
-                    <a
-                      href={"https://myjson.now.sh"}
-                      target={"_blank"}
-                      rel={"noopener noreferrer"}
-                      title={"Try It Out"}
-                      aria-label={"Try It Out"}
-                    >
-                      <button className={"projectbutton"}>
-                        <Icon
-                          className={"fas fa-external-link-alt"}
-                          title={"Try It Out"}
-                        />
-                        &nbsp;&nbsp;Try It
-                      </button>
-                    </a>
-                    &nbsp;&nbsp;
-                    <a
-                      href={"https://github.com/deve-sh/MyJSON"}
-                      target={"_blank"}
-                      rel={"noopener noreferrer"}
-                      title={"View Source On Github"}
-                      aria-label={"View Source On Github"}
-                    >
-                      <button className={"projectbutton"}>
-                        <Icon
-                          className={"fab fa-github fa-lg"}
-                          title={"View Source On Github"}
-                        />
-                        &nbsp;&nbsp;View Source
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className={"webdev-projects-singleproject-image col-md-6"}>
-                <Image
-                  src={MyJSONImage}
-                  webPImage={MyJSONWebp}
-                  alt={"MyJSONImage"}
-                  className={"hobnobimage projectimage"}
-                />
-              </div>
-            </div>
             <div className={"webdev-projects-reposection row"}>
               <div className={"col-sm-4 repocol"}>
                 <GithubCard
@@ -292,7 +224,7 @@ const WorkPage = () => {
                 <GithubCard
                   repoName={"MBlaze"}
                   repoDesc={
-                    "Making working with MongoDB from the frontend simple and elegant, just like Firestore."
+                    "Making working with MongoDB from the frontend simple and elegant, just like Firestore. 🔥"
                   }
                   repoLang={"TypeScript"}
                   repoLink={"https://github.com/deve-sh/MBlaze"}
@@ -320,24 +252,36 @@ const WorkPage = () => {
               </div>
             </div>
             <div className={"webdev-projects-reposection row"}>
-              {/*<div className={"col-sm-4 repocol"}>
+              <div className={"col-sm-4 repocol"}>
                 <GithubCard
-                  repoName={"Issuer"}
+                  repoName={"MyJSON"}
                   repoDesc={
-                    "A web app to let institutes solve technical problems quick and easy."
+                    "A Web Service to serve you the JSON of your need.🧾"
                   }
                   repoLang={"JavaScript"}
-                  repoLink={"https://github.com/deve-sh/Issuer"}
+                  repoLink={"https://github.com/deve-sh/myjson"}
                 />
               </div>
               <div className={"col-sm-4 repocol"}>
                 <GithubCard
-                  repoName={"Pollster"}
-                  repoDesc={"A Sexy Voting Web App!"}
-                  repoLang={"PHP"}
-                  repoLink={"https://github.com/deve-sh/Pollster"}
+                  repoName={"Dashout"}
+                  repoDesc={
+                    "A simple Buy Now Pay Later service implementation. 💳"
+                  }
+                  repoLang={"TypeScript"}
+                  repoLink={"https://github.com/deve-sh/Dashout"}
                 />
-                </div>*/}
+              </div>
+              <div className={"col-sm-4 repocol"}>
+                <GithubCard
+                  repoName={"Altpay"}
+                  repoDesc={
+                    "Enabling UPI QRs To Receive Payments Via Any Payment Method 🤳"
+                  }
+                  repoLang={"JavaScript"}
+                  repoLink={"https://github.com/deve-sh/Altpay"}
+                />
+              </div>
             </div>
           </div>
           <div className={"viewmorework"}>
