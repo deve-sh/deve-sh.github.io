@@ -77,7 +77,7 @@ const IndexPage = () => {
                     title="Blog"
                   >
                     blog post
-                  </a>{" "}
+                  </a>
                   , documenting my learnings or reading something interesting.
                   If you can't find me doing any of the above, I'll probably be
                   outside on a drive.
@@ -105,7 +105,7 @@ const IndexPage = () => {
               <Image src={WhatIdoImage} alt={"What I do?"} />
             </div>
             <div className={"col-md-7 whatido-right"}>
-              <div className={"whatido-heading"}>Helping Build Experiences</div>
+              <div className={"whatido-heading"}>Building Experiences</div>
               <div className={"whatido-text"}>
                 <p>
                   I take delight in helping startups, businesses and individuals

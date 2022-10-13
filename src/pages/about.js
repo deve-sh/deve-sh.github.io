@@ -87,7 +87,7 @@ const AboutPage = () => {
         </section>
         <section className={"about-descriptors row invertrow"}>
           <div className={"col-xl-6 desccol"}>
-            <div className={"heading"}>Teenage and Adolescense</div>
+            <div className={"heading"}>Adolescense</div>
             <div className={"desc"}>
               <p>
                 If the above sounds impressive, don't buy it. My mid-adolescence
@@ -134,11 +134,11 @@ const AboutPage = () => {
                 anything.
               </p>
               <p>
-                I kept learning new stuff till I actually became the best or
-                good enough at whatever I liked. I got to learn the skill that
-                is now something I can't live without, driving. I do everything
-                I like today and am more free and confident than ever. Looking
-                forward to even more goodness in the coming years.
+                I kept learning new stuff till I actually became the best at
+                whatever I liked. I got to learn the skill that is now something
+                I can't live without, driving. I do everything I like today and
+                am more free and confident than ever. Looking forward to even
+                more goodness in the coming years.
               </p>
             </div>
           </div>
