@@ -78,9 +78,10 @@ const IndexPage = () => {
                   >
                     blog post
                   </a>
-                  , documenting my learnings or reading something interesting.
-                  If you can't find me doing any of the above, I'll probably be
-                  outside on a drive.
+                  , documenting my learnings or reading something interesting (I
+                  have more books than I could possibly read). If you can't find
+                  me doing any of the above, I'll probably be outside on a
+                  drive.
                 </p>
               </div>
             </div>
