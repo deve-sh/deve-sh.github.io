@@ -103,7 +103,7 @@ const IndexPage = () => {
         <section className={"home-whatido"}>
           <div className={"row fixedcontainer"}>
             <div className={"col-md-5 imagecolumn text-center"}>
-              <Image src={WhatIdoImage} alt={"What I do?"} />
+              <Image src={WhatIdoImage} alt={"What I do?"} loading="lazy" />
             </div>
             <div className={"col-md-7 whatido-right"}>
               <div className={"whatido-heading"}>Building Experiences</div>
@@ -153,6 +153,7 @@ const IndexPage = () => {
               <Image
                 src={WhiteboardImage}
                 alt={"Whiteboard for solving problems."}
+                loading="lazy"
               />
             </div>
           </div>
@@ -169,6 +170,7 @@ const IndexPage = () => {
             >
               <div className={"brandimage col-4 p-3"}>
                 <Image
+                  loading="lazy"
                   src={UnacademyImage}
                   webPImage={UnacademyWebp}
                   alt={"Unacademy"}
@@ -177,6 +179,7 @@ const IndexPage = () => {
               </div>
               <div className={"brandimage col-4 p-3"}>
                 <Image
+                  loading="lazy"
                   src={SolarLadderImage}
                   webPImage={SolarLadderWebp}
                   alt={"Solar Ladder"}
@@ -185,6 +188,7 @@ const IndexPage = () => {
               </div>
               <div className={"brandimage col-4 p-3"}>
                 <Image
+                  loading="lazy"
                   src={ConvinImage}
                   webPImage={ConvinWebp}
                   alt={"Convin"}
@@ -193,6 +197,7 @@ const IndexPage = () => {
               </div>
               <div className={"brandimage col-4 p-3"}>
                 <Image
+                  loading="lazy"
                   src={JagoInvestorImage}
                   webPImage={JagoInvestorWebp}
                   alt={"JagoInvestor"}
@@ -201,6 +206,7 @@ const IndexPage = () => {
               </div>
               <div className={"brandimage col-4 p-3"}>
                 <Image
+                  loading="lazy"
                   src={MaalexiImage}
                   webPImage={MaalexiWebp}
                   alt={"Maalexi"}
@@ -209,6 +215,7 @@ const IndexPage = () => {
               </div>
               <div className={"brandimage col-4 p-3"}>
                 <Image
+                  loading="lazy"
                   src={UnergiaImage}
                   webPImage={UnergiaWebp}
                   alt={"Unergia"}
