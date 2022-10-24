@@ -142,8 +142,9 @@ const AboutPage = () => {
               </p>
               <p>
                 I love exploring, traveling and having conversations with
-                interesting people. Hit me up if you would like to have a chat,
-                I keep an open mind.
+                interesting people. Hit me up if you would like to have a chat.
+                I keep an open mind, am an optimist and always look for the good
+                in things.
               </p>
             </div>
           </div>
