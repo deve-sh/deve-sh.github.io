@@ -36,13 +36,15 @@ const AboutPage = () => {
             <div className={"col-md-7 about-top-left"}>
               <div className={"heading"}>About Me</div>
               <div className={"aboutdesc"}>
-                <p>I am Devesh, a Full Stack Engineer.</p>
-
                 <p>
-                  I am from Bhopal, but have lived in 12 cities since I was
-                  born. So it is safe to assume that I have seen quite a lot of
-                  cultures, places and people, and that number is only going to
-                  grow as I age and discover more and more!
+                  I believe in being more than the college I went to, the cities
+                  I've lived in, the credentials I put on my resume, and more
+                  than the titles and names people know me by.
+                </p>
+                <p>
+                  I am the sum of my experiences, learnings and creations, my
+                  insatiable curiosity, and my unending drive to build great
+                  things and solve real-world problems.
                 </p>
               </div>
             </div>
