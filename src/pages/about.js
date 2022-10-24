@@ -63,46 +63,49 @@ const AboutPage = () => {
             <Image
               src={ChildHoodImage}
               webPImage={ChildHoodWebp}
-              alt={"Childhood"}
+              alt={"The Paths I've Taken"}
               className={"fullimage"}
             />
           </div>
           <div className={"col-xl-6 desccol"}>
-            <div className={"heading"}>Childhood</div>
             <div className={"desc"}>
+              <p>For most of my life, I have just been an average kid.</p>
               <p>
-                I was a relatively inactive yet an extremely curious child till
-                12.
-                <br />I always had my eyes open for anything new and special
-                that came my way. I tried my hands on Web Development out of
-                pure curiosity.
+                But I never liked taking the path everyone else took, or using a
+                cookie cutter method for life. To me, life is a path that's
+                different for everyone and those taken by one are almost never
+                the best paths for someone else.
               </p>
               <p>
-                Learned a little photography, got addicted to it.
-                <br />I started my first web dev company at 13, worked a year,
-                earned a little, closed it at 14 due to time constraints from
-                school. I also ran Cricket Modders, the second largest cricket
-                modding site in the world at a point. Life was good.
+                I only ever had two possible career options as I have had
+                clarity on what I liked and wanted to be from a very early age.
+              </p>
+              <p>
+                I ended up being a Software Engineer which was one of the two
+                possible career options I had set for myself.
               </p>
             </div>
           </div>
         </section>
         <section className={"about-descriptors row invertrow"}>
           <div className={"col-xl-6 desccol"}>
-            <div className={"heading"}>Adolescense</div>
             <div className={"desc"}>
               <p>
-                If the above sounds impressive, don't buy it. My mid-adolescence
-                was filled with heartbreaking failures in academics and extreme
-                lack of social appreciation and validation. It felt at times
-                like all the efforts I had put in all these years were going
-                down the drain.
+                If you're someone from India, you would be expected to choose
+                between being an engineer or a doctor. I've had the fortune of
+                having parents who always supported me in not choosing either of
+                those paths.
               </p>
               <p>
-                I am pretty sure I slipped into a phase of self-doubt for almost
-                an year. I had no reason to, I was more fortunate than a lot of
-                people out there. But can't blame it, teenagers are extremely
-                emotionally-driven. I smiled the phase off anyway.
+                I did not go for an engineering degree and instead decided to
+                build up my skillset early on, and trying to connect with people
+                who have similar interests and acumen.
+              </p>
+              <p>
+                I learnt everything I could get my hands on, from creating
+                themes for forum software, building web apps and then
+                architecting systems. Ran small businesses, freelanced and
+                interened, no opportunity was small enough for me to let go of.
               </p>
             </div>
           </div>
@@ -125,22 +128,22 @@ const AboutPage = () => {
             />
           </div>
           <div className={"col-xl-6 desccol"}>
-            <div className={"heading"}>Today and Beyond</div>
             <div className={"desc"}>
               <p>
-                The end of my teen years looked like a triumph to me. With
-                enough effort, I was able to not only pass the subjects I
-                failed, but top the class in them. Wasted effort I would say but
-                I definitely regained the confidence I had lost in all those
-                years realizing that there was not reason to be sad about
-                anything.
+                I've always liked having control of my life. I don't put myself
+                in positions where someone else pulls the strings (One of the
+                reasons I never liked School) so I always do my best to be the
+                one in charge of my situations.
               </p>
               <p>
-                I kept learning new stuff till I actually became the best at
-                whatever I liked. I got to learn the skill that is now something
-                I can't live without, driving. I do everything I like today and
-                am more free and confident than ever. Looking forward to even
-                more goodness in the coming years.
+                Don't let the above fool you, however, I've always been an
+                academically bright student, a great communicator and, as far as
+                my colleagues tell me, a great co-worker to have around.
+              </p>
+              <p>
+                I love exploring, traveling and having conversations with
+                interesting people. Hit me up if you would like to have a chat,
+                I keep an open mind.
               </p>
             </div>
           </div>

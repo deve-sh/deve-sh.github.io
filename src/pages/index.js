@@ -64,9 +64,9 @@ const IndexPage = () => {
               <div className={"introdesc"}>
                 <p>Hi, I am Devesh.</p>
                 <p>
-                  I am a Full Stack Software Engineer, I build web apps and I
+                  I am a Full Stack Software Engineer, I build web apps and
                   architect systems. I reverse engineer tools I use day to day
-                  and write scripts that make mine and other people's life easy.
+                  and write scripts that make everyone's life easy.
                 </p>
                 <p>
                   Every now and then, you'll see me writing a{" "}
@@ -111,12 +111,12 @@ const IndexPage = () => {
                 <p>
                   I take delight in helping startups, businesses and individuals
                   build complex yet intuitive and compelling experiences with
-                  their products and services, both as a developer and someone
-                  with a keen eye for aesthetics.
+                  their products and services, both as a developer and
+                  product-level thinker with a keen eye for design.
                 </p>
                 <p>
                   I have helped build tools, MVPs, Landing Pages and also
-                  founded numerous services myself start to finish, from
+                  created numerous services myself start to finish, from
                   Conceptualization to Creation to Marketing. The time is for
                   our taking after all!
                 </p>
