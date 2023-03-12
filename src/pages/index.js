@@ -24,8 +24,8 @@ import JagoInvestorWebp from "../images/webp/jagoinvestor.webp"
 import MaalexiImage from "../images/maalexilogo.png"
 import MaalexiWebp from "../images/webp/maalexilogo.webp"
 
-import UnergiaImage from "../images/unergia.png"
-import UnergiaWebp from "../images/webp/unergia.webp"
+import PostmanImage from "../images/Postman.png"
+import PostmanWebp from "../images/webp/Postman.webp"
 
 import SolarLadderImage from "../images/solarladder-logo.png"
 import SolarLadderWebp from "../images/webp/solarladder-logo.webp"
@@ -171,6 +171,14 @@ const IndexPage = () => {
               <div className={"brandimage col-4 p-3"}>
                 <Image
                   loading="lazy"
+                  src={PostmanImage}
+                  webPImage={PostmanWebp}
+                  alt={"Postman"}
+                />
+              </div>
+              <div className={"brandimage col-4 p-3"}>
+                <Image
+                  loading="lazy"
                   src={UnacademyImage}
                   webPImage={UnacademyWebp}
                   alt={"Unacademy"}
@@ -210,15 +218,6 @@ const IndexPage = () => {
                   src={MaalexiImage}
                   webPImage={MaalexiWebp}
                   alt={"Maalexi"}
-                  className={"p-1"}
-                />
-              </div>
-              <div className={"brandimage col-4 p-3"}>
-                <Image
-                  loading="lazy"
-                  src={UnergiaImage}
-                  webPImage={UnergiaWebp}
-                  alt={"Unergia"}
                   className={"p-1"}
                 />
               </div>
