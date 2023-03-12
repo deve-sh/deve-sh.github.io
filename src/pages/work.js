@@ -13,9 +13,6 @@ import CornerPlantsImage from "../images/leafstuff.svg"
 import WorkImage from "../images/WorkIntro.png"
 import WorkIntroWebp from "../images/webp/WorkIntro.webp"
 
-import HobnobImage from "../images/Hobnob.png"
-import HobnobWebp from "../images/webp/Hobnob.webp"
-
 import SolarLadderImage from "../images/SolarLadder.png"
 import SolarLadderWebp from "../images/webp/SolarLadder.webp"
 
@@ -140,146 +137,103 @@ const WorkPage = () => {
                 />
               </div>
             </div>
-            <div className={"webdev-projects-singleproject row"}>
-              <div className={"webdev-projects-singleproject-image col-md-6"}>
-                <Image
-                  src={HobnobImage}
-                  webPImage={HobnobWebp}
-                  alt={"Hobnob"}
-                  className={"hobnobimage projectimage"}
-                />
-              </div>
-              <div className={"webdev-projects-singleproject-desc col-md-6"}>
-                <div className={"webdev-projects-singleproject-desc-heading"}>
-                  Hobnob
-                </div>
-                <div className={"webdev-projects-singleproject-desc-desc"}>
-                  <p>
-                    Hobnob is a code-casting service that allows coding
-                    institues to move their courses online efficiently with
-                    interactive code-casts that students can use to learn more
-                    effectively, along with more added features.
-                  </p>
-                  <div>
-                    Hobnob is the crowning jewel of my Web Development skills. I
-                    put everything I ever learnt to the test in building this
-                    application. From React to Backend Auth to DevOps to AWS.
-                  </div>
-                  <div
-                    className={
-                      "webdev-projects-singleproject-desc-buttoncontainer"
-                    }
-                  >
-                    <a
-                      href={"https://deve-sh.github.io/hobnob"}
-                      target={"_blank"}
-                      rel={"noopener noreferrer"}
-                      title={"View Hobnob"}
-                      aria-label={"View Hobnob"}
-                    >
-                      <button className={"projectbutton"}>
-                        <Icon
-                          className={"fas fa-external-link-alt"}
-                          title={"View Hobnob"}
-                        />
-                        &nbsp;&nbsp;Know More
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div className={"webdev-projects-reposection row"}>
               <div className={"col-sm-4 repocol"}>
                 <GithubCard
-                  repoName={"NoteItDown"}
-                  repoDesc={
-                    "A Simple Yet Extensive Note Taking Workspace Application for an entire team. Inspired By Notion 📓"
-                  }
-                  repoLang={"JavaScript"}
-                  repoLink={"https://github.com/deve-sh/NoteItDown"}
+                  repoName="Tranquil"
+                  repoDesc="A Real-Time Online Development Environment inspired by Codesandbox and StackBlitz. 💻✨"
+                  repoLang="TypeScript"
+                  repoLink="https://github.com/deve-sh/Tranquil"
+                />
+              </div>
+              <div className="col-sm-4 repocol">
+                <GithubCard
+                  repoName="Smallet"
+                  repoDesc="A simple digital wallet for everyone. Built with Next.js ♥"
+                  repoLang="TypeScript"
+                  repoLink="https://github.com/deve-sh/Smallet"
+                />
+              </div>
+              <div className="col-sm-4 repocol">
+                <GithubCard
+                  repoName="Isomorph"
+                  repoDesc="A Purpose-Built React SSR and SSG framework inspired by Next.js."
+                  repoLang="JavaScript"
+                  repoLink="https://github.com/deve-sh/Isomorph"
+                />
+              </div>
+              <div className="col-sm-4 repocol">
+                <GithubCard
+                  repoName="MBlaze"
+                  repoDesc="Making working with MongoDB from the frontend simple and elegant, just like Firestore. 🔥"
+                  repoLang="TypeScript"
+                  repoLink="https://github.com/deve-sh/MBlaze"
                 />
               </div>
               <div className={"col-sm-4 repocol"}>
                 <GithubCard
-                  repoName={"Smallet"}
-                  repoDesc={
-                    "A simple digital wallet for everyone. Built with Next.js ♥"
-                  }
-                  repoLang={"TypeScript"}
-                  repoLink={"https://github.com/deve-sh/Smallet"}
+                  repoName="Korero"
+                  repoDesc="A snippet that enables real-time team communication and feedback for your app on any webpage 💬"
+                  repoLang="TypeScript"
+                  repoLink="https://github.com/deve-sh/Korero"
+                />
+              </div>
+              <div className="col-sm-4 repocol">
+                <GithubCard
+                  repoName="NoteItDown"
+                  repoDesc="A Simple Yet Extensive Note Taking Workspace Application for an entire team. Inspired By Notion 📓"
+                  repoLang="JavaScript"
+                  repoLink="https://github.com/deve-sh/NoteItDown"
                 />
               </div>
               <div className={"col-sm-4 repocol"}>
                 <GithubCard
-                  repoName={"Isomorph"}
-                  repoDesc={
-                    "A Purpose-Built React SSR and SSG framework inspired by Next.js."
-                  }
-                  repoLang={"JavaScript"}
-                  repoLink={"https://github.com/deve-sh/Isomorph"}
+                  repoName="Hobnob"
+                  repoDesc="A Revolutionary Way For Leaders and Coding Classes to manage their Teams/Classrooms and Fellow/Student Interactions!"
+                  repoLang="JavaScript"
+                  repoLink="https://github.com/deve-sh/Hobnob"
                 />
               </div>
-              <div className={"col-sm-4 repocol"}>
+              <div className="col-sm-4 repocol">
                 <GithubCard
-                  repoName={"MBlaze"}
-                  repoDesc={
-                    "Making working with MongoDB from the frontend simple and elegant, just like Firestore. 🔥"
-                  }
-                  repoLang={"TypeScript"}
-                  repoLink={"https://github.com/deve-sh/MBlaze"}
+                  repoName="TimePad"
+                  repoDesc="An algorithm for recordable and replayable textareas at scale. Detailed and Simple. Hobnob is built on this."
+                  repoLang="JavaScript"
+                  repoLink="https://github.com/deve-sh/TimePad"
                 />
               </div>
-              <div className={"col-sm-4 repocol"}>
+              <div className="col-sm-4 repocol">
                 <GithubCard
-                  repoName={"TimePad"}
-                  repoDesc={
-                    "An algorithm for recordable and replayable textareas at scale. Detailed and Simple. Hobnob is built on this."
-                  }
-                  repoLang={"JavaScript"}
-                  repoLink={"https://github.com/deve-sh/TimePad"}
-                />
-              </div>
-              <div className={"col-sm-4 repocol"}>
-                <GithubCard
-                  repoName={"Stratify"}
-                  repoDesc={
-                    "A simple tool to build out a static website using nothing but Markdown. Useful for static blog sites and feeds.."
-                  }
-                  repoLang={"JavaScript"}
-                  repoLink={"https://github.com/deve-sh/Stratify"}
+                  repoName="Stratify"
+                  repoDesc="A simple tool to build out a static website using nothing but Markdown. Useful for static blog sites and feeds.."
+                  repoLang="JavaScript"
+                  repoLink="https://github.com/deve-sh/Stratify"
                 />
               </div>
             </div>
-            <div className={"webdev-projects-reposection row"}>
-              <div className={"col-sm-4 repocol"}>
+            <div className="webdev-projects-reposection row">
+              <div className="col-sm-4 repocol">
                 <GithubCard
-                  repoName={"MyJSON"}
-                  repoDesc={
-                    "A Web Service to serve you the JSON of your need.🧾"
-                  }
-                  repoLang={"JavaScript"}
-                  repoLink={"https://github.com/deve-sh/myjson"}
+                  repoName="MyJSON"
+                  repoDesc="A Web Service to serve you the JSON of your need.🧾"
+                  repoLang="JavaScript"
+                  repoLink="https://github.com/deve-sh/myjson"
                 />
               </div>
-              <div className={"col-sm-4 repocol"}>
+              <div className="col-sm-4 repocol">
                 <GithubCard
-                  repoName={"Dashout"}
-                  repoDesc={
-                    "A simple Buy Now Pay Later service implementation. 💳"
-                  }
-                  repoLang={"TypeScript"}
-                  repoLink={"https://github.com/deve-sh/Dashout"}
+                  repoName="Dashout"
+                  repoDesc="A simple Buy Now Pay Later service implementation. 💳"
+                  repoLang="TypeScript"
+                  repoLink="https://github.com/deve-sh/Dashout"
                 />
               </div>
-              <div className={"col-sm-4 repocol"}>
+              <div className="col-sm-4 repocol">
                 <GithubCard
-                  repoName={"Altpay"}
-                  repoDesc={
-                    "Enabling UPI QRs To Receive Payments Via Any Payment Method 🤳"
-                  }
-                  repoLang={"JavaScript"}
-                  repoLink={"https://github.com/deve-sh/Altpay"}
+                  repoName="Altpay"
+                  repoDesc="Enabling UPI QRs To Receive Payments Via Any Payment Method 🤳"
+                  repoLang="JavaScript"
+                  repoLink="https://github.com/deve-sh/Altpay"
                 />
               </div>
             </div>
