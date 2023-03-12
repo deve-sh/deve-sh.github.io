@@ -80,63 +80,6 @@ const WorkPage = () => {
             <div className={"webdev-projects-heading-desc"}>
               Take a look at some of my projects.
             </div>
-            <div className={"webdev-projects-singleproject row"}>
-              <div className={"webdev-projects-singleproject-image col-md-6"}>
-                <Image
-                  src={SolarLadderImage}
-                  webPImage={SolarLadderWebp}
-                  alt={"Solar Ladder"}
-                  className={"hobnobimage projectimage"}
-                />
-              </div>
-              <div className={"webdev-projects-singleproject-desc col-md-6"}>
-                <div className={"webdev-projects-singleproject-desc-heading"}>
-                  Solar Ladder
-                </div>
-                <div className={"webdev-projects-singleproject-desc-desc"}>
-                  <p>
-                    Solar Ladder is Unergia's premier SAAS Application that is
-                    built for Solar Installers and Companies to automate tasks,
-                    manage teams, inventory, payments and remotely monitor
-                    projects and inverters.
-                  </p>
-                  <div>
-                    More time saved by them means more customers served, more
-                    solar panels installed and in turn increasing the green
-                    footprint. Solar Ladder is built entirely on Serverless, to
-                    scale as much as required.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={"webdev-projects-singleproject invertrow row"}>
-              <div className={"webdev-projects-singleproject-desc col-md-6"}>
-                <div className={"webdev-projects-singleproject-desc-heading"}>
-                  Unergia Bidding Platform
-                </div>
-                <div className={"webdev-projects-singleproject-desc-desc"}>
-                  <p>
-                    The Bidding Platform is a Full Stack Application used by big
-                    Solar Enterprises to get competitive real-time bids for
-                    thier large-scale projects.
-                  </p>
-                  <div>
-                    The Application is completely real-time and customizable to
-                    the enterprise's requirements and can serve hundreds of bids
-                    at a moment, all geo-synced to eliminate errors and
-                    inconsistencies.
-                  </div>
-                </div>
-              </div>
-              <div className={"webdev-projects-singleproject-image col-md-6"}>
-                <Image
-                  src={BiddingPlatformImage}
-                  webPImage={BiddingPlatformWebp}
-                  alt={"Bidding Platform"}
-                  className={"hobnobimage projectimage"}
-                />
-              </div>
-            </div>
             <div className={"webdev-projects-reposection row"}>
               <div className={"col-sm-4 repocol"}>
                 <GithubCard
@@ -234,6 +177,66 @@ const WorkPage = () => {
                   repoDesc="Enabling UPI QRs To Receive Payments Via Any Payment Method 🤳"
                   repoLang="JavaScript"
                   repoLink="https://github.com/deve-sh/Altpay"
+                />
+              </div>
+            </div>
+            <div className={"webdev-projects-heading-desc my-4"}>
+              A few things I built at work:
+            </div>
+            <div className={"webdev-projects-singleproject row"}>
+              <div className={"webdev-projects-singleproject-image col-md-6"}>
+                <Image
+                  src={SolarLadderImage}
+                  webPImage={SolarLadderWebp}
+                  alt={"Solar Ladder"}
+                  className={"hobnobimage projectimage"}
+                />
+              </div>
+              <div className={"webdev-projects-singleproject-desc col-md-6"}>
+                <div className={"webdev-projects-singleproject-desc-heading"}>
+                  Solar Ladder
+                </div>
+                <div className={"webdev-projects-singleproject-desc-desc"}>
+                  <p>
+                    Solar Ladder is Unergia's premier SAAS Application that is
+                    built for Solar Installers and Companies to automate tasks,
+                    manage teams, inventory, payments and remotely monitor
+                    projects and inverters.
+                  </p>
+                  <div>
+                    More time saved by them means more customers served, more
+                    solar panels installed and in turn increasing the green
+                    footprint. Solar Ladder is built entirely on Serverless, to
+                    scale as much as required.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={"webdev-projects-singleproject invertrow row"}>
+              <div className={"webdev-projects-singleproject-desc col-md-6"}>
+                <div className={"webdev-projects-singleproject-desc-heading"}>
+                  Unergia Bidding Platform
+                </div>
+                <div className={"webdev-projects-singleproject-desc-desc"}>
+                  <p>
+                    The Bidding Platform is a Full Stack Application used by big
+                    Solar Enterprises to get competitive real-time bids for
+                    thier large-scale projects.
+                  </p>
+                  <div>
+                    The Application is completely real-time and customizable to
+                    the enterprise's requirements and can serve hundreds of bids
+                    at a moment, all geo-synced to eliminate errors and
+                    inconsistencies.
+                  </div>
+                </div>
+              </div>
+              <div className={"webdev-projects-singleproject-image col-md-6"}>
+                <Image
+                  src={BiddingPlatformImage}
+                  webPImage={BiddingPlatformWebp}
+                  alt={"Bidding Platform"}
+                  className={"hobnobimage projectimage"}
                 />
               </div>
             </div>
