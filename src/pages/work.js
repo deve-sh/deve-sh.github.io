@@ -198,16 +198,16 @@ const WorkPage = () => {
                 </div>
                 <div className={"webdev-projects-singleproject-desc-desc"}>
                   <p>
-                    Solar Ladder is Unergia's premier SAAS Application that is
-                    built for Solar Installers and Companies to automate tasks,
-                    manage teams, inventory, payments and remotely monitor
-                    projects and inverters.
+                    Solar Ladder is a premier SAAS Application that is built for
+                    Solar Installers and Companies to automate tasks, manage
+                    teams, inventory, payments and remotely monitor projects and
+                    inverters.
                   </p>
                   <div>
                     More time saved by them means more customers served, more
-                    solar panels installed and in turn increasing the green
-                    footprint. Solar Ladder is built entirely on Serverless, to
-                    scale as much as required.
+                    solar panels installed and in turn a greener world. Solar
+                    Ladder is built entirely on Serverless, to scale as much as
+                    required.
                   </div>
                 </div>
               </div>
@@ -226,7 +226,7 @@ const WorkPage = () => {
                   <div>
                     The Application is completely real-time and customizable to
                     the enterprise's requirements and can serve hundreds of bids
-                    at a moment, all geo-synced to eliminate errors and
+                    a second, all geo-synced to eliminate errors and
                     inconsistencies.
                   </div>
                 </div>

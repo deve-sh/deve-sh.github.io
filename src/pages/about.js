@@ -92,20 +92,20 @@ const AboutPage = () => {
             <div className={"desc"}>
               <p>
                 If you're someone from India, you would be expected to choose
-                between being an engineer or a doctor. I've had the fortune of
-                having parents who always supported me in not choosing either of
-                those paths.
+                between getting an engineering degreee or being a doctor. I've
+                had the fortune of having parents who always supported me in not
+                choosing either of those paths.
               </p>
               <p>
                 I did not go for an engineering degree and instead decided to
-                build up my skillset early on, and trying to connect with people
+                build up my skillset early on, and tried to connect with people
                 who have similar interests and acumen.
               </p>
               <p>
                 I learnt everything I could get my hands on, from creating
                 themes for forum software, building web apps and then
-                architecting systems. Ran small businesses, freelanced and
-                interened, no opportunity was small enough for me to let go of.
+                architecting systems. Ran a small business, freelanced and
+                interned, no opportunity was small enough for me to let go of.
               </p>
             </div>
           </div>
@@ -136,9 +136,10 @@ const AboutPage = () => {
                 one in charge of my situations.
               </p>
               <p>
-                Don't let the above fool you, however, I've always been an
-                academically bright student, a great communicator and, as far as
-                my colleagues tell me, a great co-worker to have around.
+                Don't let the above fool you into thinking I am a rebel however,
+                I've always been an academically bright student, a great
+                communicator and, as far as my colleagues tell me, a great
+                co-worker to have around.
               </p>
               <p>
                 I love exploring, traveling and having conversations with
